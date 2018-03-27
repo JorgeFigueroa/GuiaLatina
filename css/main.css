@@ -1,0 +1,42 @@
+.pill-radius {
+  border-radius: 50px; }
+
+.bolder {
+  font-weight: bolder; }
+
+.w-15 {
+  width: 15%; }
+
+.w-70 {
+  width: 70%; }
+
+.tiny-font {
+  font-size: 0.25rem !important; }
+
+.small-font {
+  font-size: 0.5rem !important; }
+
+.medium-font {
+  font-size: 0.75rem !important; }
+
+.large-font {
+  font-size: 1rem !important; }
+
+.display-container {
+  position: relative; }
+
+.display-block {
+  display: block; }
+
+.display-inline {
+  display: inline-block; }
+
+.log-icon {
+  position: absolute;
+  left: -1%;
+  top: -15%; }
+
+.ml40 {
+  margin-left: 40px !important; }
+
+/*# sourceMappingURL=main.css.map */
