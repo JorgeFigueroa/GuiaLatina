@@ -21,3 +21,24 @@
 	top: 0;
 	right: 25%;
 }
+
+table{
+	table-layout: fixed;
+}
+
+#tableMenu th{
+	width:170px;
+	overflow: auto;
+}
+
+.transition{
+	transition: ease 0.5s;
+}
+
+.rotate{
+	transform: rotate(180deg);
+}
+
+.outline-none{
+	outline: none!important;
+}
