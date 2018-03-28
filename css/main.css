@@ -1,0 +1,42 @@
+.pill-radius {
+  border-radius: 50px; }
+
+.bolder {
+  font-weight: bolder; }
+
+.display-container {
+  position: relative; }
+
+.display-none {
+  display: none; }
+
+.display-notification {
+  position: absolute !important;
+  top: 0;
+  right: 25%; }
+
+table {
+  table-layout: fixed; }
+
+#tableMenu th {
+  width: 170px;
+  overflow: auto; }
+
+.transition {
+  transition: ease 0.5s; }
+
+.rotate {
+  transform: rotate(180deg); }
+
+.outline-none {
+  outline: none !important; }
+
+.log-icon {
+  position: absolute;
+  left: -1%;
+  top: -15%; }
+
+.ml40 {
+  margin-left: 35px !important; }
+
+/*# sourceMappingURL=main.css.map */

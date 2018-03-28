@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Bootstrap v4.0.0 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+	<!-- Main styles -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Awesome Fonts -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+	<title></title>
+</head>
+<body class="bg-light">
+
+	<!-- Search Form -->
+
+	<nav class="navbar bg-primary">
+		<div class="container d-block">
+			<div class="row no-gutters">
+				<div class="col-sm-10">
+					<input type="text" name="" class="form-control border-0 rounded-0">
+				</div>
+				<div class="col-sm-2">
+					<button class="btn btn-darkest border-0 rounded-0 btn-block">
+						<i class="fas fa-search"></i>
+					</button>				
+				</div>
+			</div>
+		</div>	
+	</nav>
+
+
+	<article class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card border-0 rounded-0 mt-2">
+					<div class="card-body mt-0 mb-0">
+						<div class="row">
+							<div class="col-sm-4">
+								<img src="img/img1.png" class="img-fluid" alt="Aki Me Quedo">
+							</div>
+							<div class="col-sm-8">
+								<strong>Aki Me Quedo</strong><br>
+								<small>
+								Via Nicola D'Apulia, 4, Milano, MI, Italia ,
+								</small><br>
+								<small><strong class="text-dark">Restaurante Peruano</strong></small>
+							</div>
+							<div class="col-sm-12">
+								<small><strong class="text-success">Hoy Lunes Abierto de 19.00 a 22.00</strong></small>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer mt-0 mb-0 border-0 bg-white">
+						<div class="row mt-4">
+							<div class="col-sm-12">
+								<button class="btn bg-white border-0 text-dark btn-sm">
+									<i class="fas fa-star"></i>
+									<small class="text-primary">3</small>
+								</button>
+								<button class="btn bg-white border-0 text-dark btn-sm">
+									<i class="fas fa-eye"></i>
+									<small class="text-primary">30 Vistas</small>
+								</button>
+								<button class="btn bg-white border-0 text-dark btn-sm">
+									<i class="fas fa-comments"></i>
+									<small class="text-primary">5</small>
+								</button>
+								<a href="" class="btn bg-white text-dark btn-sm float-right display-container">
+									<span class="display-notification badge badge-primary rounded-circle">3</span>
+									<i class="fas fa-tag"></i><br>
+									<small class="text-primary">PROMO</small>
+								</a>
+								<a href="" class="btn bg-white text-dark btn-sm float-right mr-1 display-container">
+									<span class="display-notification badge badge-primary rounded-circle">2</span>
+									<i class="fas fa-calendar"></i><br>
+									<small class="text-primary">EVENTOS</small>
+								</a>
+							</div>
+						</div>
+					</div>
+
+						<div class="card-body">	
+							<div class="row">
+								<div class="col-sm-12 mt-2">
+									<div class="card border-0">
+										<div class="card-body">
+											<div class="row">
+												<div class="col-sm-8 text-left">
+													<small class="text-primary">SERVICIOS-HORARIO-MENU</small>
+												</div>
+												<div class="col-sm-4 text-right">
+													<button class="bg-white border-0 text-right transition outline-none" id="hasDropDown">
+														<i class="fas fa-angle-down text-primary fa-lg"></i>
+													</button>
+												</div>
+												<div class="col-sm-12 display-none" id="dropDownItem">
+													<div class="row">
+														<div class="col-md-6 col-sm-12">
+															<small>Acceso disabili, wi-fi, Parcheggio, Carta di credito,</small><br>
+															<ul class="list-unstyled">
+																<li>
+																	<small>
+																		<strong class="text-primary">LUNES:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">MARTES:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">MIERCOLES:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">JUEVES:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">VIERNES:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">SABADO:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+																<li>
+																	<small>
+																		<strong class="text-primary">DOMINGO:</strong>
+																		de 11 :00 a 15:00 y de  18.00 a 24.00
+																	</small>
+																</li>
+															</ul>
+														</div>
+														<div class="col-md-6 col-sm-12">
+															<div class="table-responsive">
+																<table class="table table-sm">
+																	<thead>
+																		<tr id="tableMenu">
+																			<th>
+																				<small>
+																					<strong class="text-primary">LUNES</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">MARTES</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">MIERCOLES</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">JUEVES</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">VIERNES</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">SABADO</strong>
+																				</small>
+																			</th>
+																			<th>
+																				<small>
+																					<strong class="text-primary">DOMINGO</strong>
+																				</small>
+																			</th>
+																		</tr>
+																	</thead>
+																	<tbody>
+																		<tr>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																			<td>
+																				<small>
+																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																				</small>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+							<!-- EVENTO-PROMO section -->
+						<div class="row">
+							<div class="col-sm-12 mt-2">
+								<div class="card border-primary rounded-0">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-sm-4 text-left col-md-6">
+												<i class="fas fa-calendar fa-lg text-primary"></i>
+												<small>
+													<strong>EVENTO</strong>
+												</small>
+											</div>
+											<div class="col-sm-4 text-left">
+												<i class="fas fa-tag fa-lg text-primary"></i>
+												<small>
+													<strong>PROMO</strong>
+												</small>
+											</div>
+											<div class="col-sm-4 text-right d-md-none d-lg-none">
+												<button class="bg-white border-0 text-right transition">
+													<i class="fas fa-angle-down text-primary fa-lg"></i>
+												</button>
+											</div>
+										</div>
+
+									<!-- EVENTO dropdown -->
+										
+										<div class="row mt-2 mb-2">
+											<div class="col-sm-12 col-md-6">
+												<img src="img/img3.png" class="img-fluid" alt="Evento">
+											</div>
+											<div class="col-sm-12 mt-2 col-md-6">
+												<div class="row">
+													<div class="col-sm-6 col-md-12">
+														<p class="mb-0">
+															<small>
+																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+															</small><br>
+															<small class="text-success">Hrs. 22:30</small>
+														</p>
+													</div>
+													<div class="col-sm-6 text-right d-md-none d-lg-none">
+														<button class="bg-white border-0 text-right transition">
+															<i class="fas fa-angle-down text-primary fa-lg"></i>
+														</button>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-12">
+													<div class="row">
+														<div class="col-sm-6">
+															<small>
+																<strong>DIA DE LA MADRE</strong>
+															</small>
+														</div>
+														<div class="col-sm-6 text-right">
+															<p class="mb-0">
+																<del>
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	45
+																</del>&nbsp;
+																<span class="text-primary">
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	20
+																</span>
+															</p>
+														</div>
+														<div class="col-sm-12 mt-2 mb-2">
+															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+														</div>
+														<div class="col-sm-12 mt-3 mb-4">
+															<button class="btn btn-danger btn-block btn-lg"><strong>PARTICIPA</strong></button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									<!-- PROMO dropdown -->
+
+										<!-- First Promo -->
+
+										<div class="row">
+											<div class="col-sm-12 border-top border-primary">
+												<p class="mb-0 mt-3 mb-3">
+													<i class="fas fa-tag fa-lg text-primary"></i>
+													<small>
+														<strong>PROMO</strong>
+													</small>
+												</p>
+											</div>
+											<div class="col-sm-12 col-md-6">
+												<img src="img/img4.png" class="img-fluid" alt="promo">
+											</div>
+											<div class="col-sm-12 mt-2 col-md-6">
+												<div class="row">
+													<div class="col-sm-6">
+														<p class="mb-0">
+															<small>
+																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+															</small><br>
+															<small class="text-success">Hrs. 22:30</small>
+														</p>
+													</div>
+													<div class="col-sm-6 text-right d-lg-nona d-md-none">
+														<button class="bg-white border-0 text-right transition">
+															<i class="fas fa-angle-down text-primary fa-lg"></i>
+														</button>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-12">
+													<div class="row">
+														<div class="col-sm-6">
+															<small>
+																<strong>POR EL DIA DE LA MADRE</strong>
+															</small>
+														</div>
+														<div class="col-sm-6 text-right">
+															<p class="mb-0">
+																<del>
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	45
+																</del>&nbsp;
+																<span class="text-primary">
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	20
+																</span>
+															</p>
+														</div>
+														<div class="col-sm-12 mt-2">
+															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+														</div>
+														<div class="col-sm-12 mt-3 mb-4">
+															<button class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Second Promo -->
+
+										<div class="row mt-4">
+											<div class="col-sm-12 col-md-6">
+												<img src="img/img5.png" class="img-fluid" alt="promo">
+											</div>
+											<div class="col-sm-12 col-md-6 mt-2">
+												<div class="row">
+													<div class="col-sm-6">
+														<p class="mb-0">
+															<small>
+																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+															</small><br>
+															<small class="text-success">Hrs. 22:30</small>
+														</p>
+													</div>
+													<div class="col-sm-6 text-right d-lg-nona d-md-none">
+														<button class="bg-white border-0 text-right transition">
+															<i class="fas fa-angle-down text-primary fa-lg"></i>
+														</button>
+													</div>
+												</div>
+												<div class="col-sm-12">
+													<div class="row">
+														<div class="col-sm-6">
+															<small>
+																<strong>POR EL DIA DE LA MADRE</strong>
+															</small>
+														</div>
+														<div class="col-sm-6 text-right">
+															<p class="mb-0">
+																<del>
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	45
+																</del>&nbsp;
+																<span class="text-primary">
+																	<i class="fas fa-euro-sign fa-lg"></i>
+																	20
+																</span>
+															</p>
+														</div>
+														<div class="col-sm-12 col-md-12 mt-2 mb-2">
+															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+														</div>
+														<div class="col-sm-12 mt-3 mb-4">
+															<button class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></button>
+														</div>
+													</div>
+												</div>
+											</div>
+
+										</div>
+
+
+									</div>
+								</div>
+							</div> 
+						</div><!-- EVENTO-PROMO section close -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<div class="col-sm-12 mt-2">
+								<button class="btn bg-white border-primary rounded-0 btn-block">
+									<div class="row">
+										<div class="col-sm-6 text-left">
+											<i class="fas fa-utensils fa-lg text-primary"></i>
+											<small>
+												<strong>PLATOS A LA CARTA</strong>
+											</small>
+										</div>
+										<div class="col-sm-6 text-right">
+											<i class="fas fa-angle-down fa-lg text-primary"></i>
+										</div>
+									</div>
+								</button>
+							</div>
+							<div class="col-sm-12 mt-2">
+								<button class="btn bg-white border-primary rounded-0 btn-block">
+									<div class="row">
+										<div class="col-sm-6 text-left">
+											<i class="fas fa-images fa-lg text-primary"></i>
+											<small>
+												<strong>GALERIA FOTO-VIDEO</strong>
+											</small>
+										</div>
+										<div class="col-sm-6 text-right">
+											<i class="fas fa-angle-down fa-lg text-primary"></i>
+										</div>
+									</div>
+								</button>
+							</div>	
+							<div class="col-sm-12 mt-2">
+								<button class="btn bg-white border-primary rounded-0 btn-block">
+									<div class="row">
+										<div class="text-left col-sm-6">
+											<i class="fas fa-map fa-lg text-primary"></i>
+											<small>
+												<strong>MAPA</strong>
+											</small>
+										</div>
+										<div class="col-sm-6 text-right">
+											<i class="fas fa-angle-down fa-lg text-primary"></i>
+										</div>
+									</div>
+								</button>
+							</div>
+							<div class="col-sm-12 mt-2">
+								<button class="btn bg-white border-primary rounded-0 btn-block">
+									<div class="row">
+										<div class="col-sm-6 text-left">
+											<i class="fas fa-user-circle fa-lg text-primary"></i>
+											<small>
+												<strong>OPINA-EVALUA</strong>
+											</small>
+										</div>
+										<div class="col-sm-6 text-right">
+											<i class="fas fa-angle-down fa-lg text-primary"></i>
+										</div>
+									</div>
+								</button>
+							</div>
+							<div class="col-sm-12 mt-5">
+								<button class="btn bg-white border-success btn-block text-success">
+									<div class="row">
+										<div class="col-sm-3">
+											<i class="fas fa-bell fa-2x mt-2"></i>
+										</div>
+										<div class="col-sm-9">
+											<p class="mt-0 mb-0">
+												<small>
+													DESEO RECIBIR NOTIFICACIONES<br> DE ESTE RESTAURANT
+												</small>
+											</p>
+										</div>
+									</div>
+								</button>
+							</div>
+							<div class="col-sm-12 mt-3">
+								<a href="" class="btn bg-white text-primary d-block text-right">
+									<small>VOLVER A RESTAURANTES</small>
+									<i class="fas fa-arrow-left fa-lg"></i>
+								</a>
+							</div>
+							<div class="col-sm-12 mt-5">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<p class="text-primary">
+											<small>
+												<strong>VER OTROS NEGOCIOS</strong>
+											</small>
+										</p>
+									</div>
+									<div class="col-sm-4">
+										<button class="btn btn-primary rounded-0 btn-block">
+											<small class="mt-3 mb-5 d-block">PRODUCTOS</small>
+										</button>
+									</div>
+									<div class="col-sm-4">
+										<button class="btn btn-primary rounded-0 btn-block">
+											<small class="mt-3 mb-5 d-block">ALIMENTOS</small>
+										</button>
+									</div>
+									<div class="col-sm-4">
+										<button class="btn btn-primary rounded-0 btn-block">
+											<small class="mt-3 mb-5 d-block">PIZZA</small>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</article>
+
+
+
+	<!-- jQuery v3.1.1 -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap v4.0.0 -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jQuery Bootstrap Wizard -->
+	<script src="js/jquery.bootstrap.wizard.min.js"></script>
+	<!-- Main Scripts -->
+	<script src="js/detalles.js"></script>
+
+</body>
+</html>
