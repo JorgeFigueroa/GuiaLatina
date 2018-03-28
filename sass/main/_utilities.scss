@@ -6,44 +6,18 @@
 	font-weight: bolder;
 }
 
-// Width
-
-.w-15{
-	width:15%;
-}
-
-.w-70{
-	width:70%;
-}
-
-// Font-sizes
-
-.tiny-font{
-	font-size: $tiny_font!important;
-}
-
-.small-font{
-	font-size: $small_font!important;
-}
-
-.medium-font{
-	font-size: $medium_font!important;
-}
-
-.large-font{
-	font-size: $large_font!important;
-}
-
 // Display Options
 
 .display-container{
 	position: relative;
 }
 
-.display-block{
-	display:block;
+.display-none{
+	display: none;
 }
 
-.display-inline{
-	display: inline-block;
+.display-notification{
+	position: absolute!important;
+	top: 0;
+	right: 25%;
 }
