@@ -7,9 +7,6 @@
 .display-container {
   position: relative; }
 
-.display-none {
-  display: none; }
-
 .display-notification {
   position: absolute !important;
   top: 0;
@@ -31,6 +28,9 @@ table {
 .outline-none {
   outline: none !important; }
 
+@media (max-width: 750px) {
+  .display-none {
+    display: none; } }
 .log-icon {
   position: absolute;
   left: -1%;
