@@ -34,34 +34,36 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:        #007bff !default;
-$indigo:      #6610f2 !default;
-$purple:      #6f42c1 !default;
-$pink:        #e83e8c !default;
-$red:         #ff3d00 !default;
-$orange:      #ff6e40 !default;
-$yellow:      #ffc107 !default;
-$green:       #8cc63f !default;
-$lightgreen:  #e7ffde !default;
-$teal:        #20c997 !default;
-$cyan:        #17a2b8 !default;
+$blue:            #007bff !default;
+$bluefacebook:    #3b5998 !default;
+$indigo:          #6610f2 !default;
+$purple:          #6f42c1 !default;
+$pink:            #e83e8c !default;
+$red:             #ff3d00 !default;
+$orange:          #ff6e40 !default;
+$yellow:          #ffc107 !default;
+$green:           #8cc63f !default;
+$lightgreen:      #e7ffde !default;
+$teal:            #20c997 !default;
+$cyan:            #17a2b8 !default;
 
 $colors: () !default;
 $colors: map-merge((
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "lightgreen": $lightgreen,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "white":      $white,
-  "gray":       $gray-200,
-  "gray-dark":  $gray-300
+  "blue":         $blue,
+  "bluefacebook": $bluefacebook,
+  "indigo":       $indigo,
+  "purple":       $purple,
+  "pink":         $pink,
+  "red":          $red,
+  "orange":       $orange,
+  "yellow":       $yellow,
+  "green":        $green,
+  "lightgreen":   $lightgreen,
+  "teal":         $teal,
+  "cyan":         $cyan,
+  "white":        $white,
+  "gray":         $gray-200,
+  "gray-dark":    $gray-300
 ), $colors);
 
 $primary:       $orange !default;
@@ -74,6 +76,7 @@ $danger:        $red !default;
 $light:         $gray-200 !default;
 $dark:          $gray-300 !default;
 $darkest:       $gray-900 !default;
+$facebook:      $bluefacebook !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -86,7 +89,8 @@ $theme-colors: map-merge((
   "danger":       $danger,
   "light":        $light,
   "dark":         $dark,
-  "darkest":      $darkest
+  "darkest":      $darkest,
+  "facebook":     $bluefacebook
 ), $theme-colors);
 // stylelint-enable
 
@@ -172,7 +176,7 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 360px,
+  sm: 320px,
   md: 768px,
   lg: 992px,
   xl: 1200px
@@ -213,6 +217,7 @@ $line-height-sm:              1.5 !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
+$pill-radius:                 .50rem !default;
 $border-radius:               .25rem !default;
 $border-radius-lg:            .3rem !default;
 $border-radius-sm:            .2rem !default;
@@ -332,7 +337,7 @@ $input-btn-padding-y:         .375rem !default;
 $input-btn-padding-x:         .75rem !default;
 $input-btn-line-height:       $line-height-base !default;
 
-$input-btn-focus-width:       .2rem !default;
+$input-btn-focus-width:       0 !default;
 $input-btn-focus-color:       rgba($component-active-bg, .25) !default;
 $input-btn-focus-box-shadow:  0 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
@@ -587,7 +592,7 @@ $nav-tabs-link-active-color:        $gray-700 !default;
 $nav-tabs-link-active-bg:           $body-bg !default;
 $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;
 
-$nav-pills-border-radius:           $border-radius !default;
+$nav-pills-border-radius:           $pill-radius !default;
 $nav-pills-link-active-color:       $component-active-color !default;
 $nav-pills-link-active-bg:          $component-active-bg !default;
 

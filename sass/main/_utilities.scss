@@ -1,45 +1,35 @@
-.pill-radius{
-	border-radius: $pill-radius;
-}
-
-.bolder{
-	font-weight: bolder;
-}
-
-// Display Options
-
-.display-container{
-	position: relative;
-}
+// Opciones de display
 
 .display-notification{
 	position: absolute!important;
-	top: 0;
-	right: 25%;
+	top: $top-init;
+	right: $right-notification;
 }
+
+// Ajuste a las tablas
 
 table{
 	table-layout: fixed;
 }
 
 #tableMenu th{
-	width:170px;
+	width: $table-menu-width;
 	overflow: auto;
 }
 
+// Transiciones del Angle Button
+
 .transition{
-	transition: ease 0.5s;
+	transition: $transition-angle;
 }
 
-.rotate{
-	transform: rotate(180deg);
+.rotate-angle-icon{
+	transform: rotate($rotation-angle);
 }
 
-.outline-none{
-	outline: none!important;
-}
+// Para resoluciones de 750px hacia abajo
 
-@media (max-width: 750px){
+@media (max-width: $max-width){
 	.display-none{
 		display: none;
 	}
