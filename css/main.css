@@ -1,8 +1,3 @@
-.display-notification {
-  position: absolute !important;
-  top: 0;
-  right: 25%; }
-
 table {
   table-layout: fixed; }
 
@@ -12,6 +7,11 @@ table {
 
 .transition {
   transition: ease 0.5s; }
+
+.display-notification {
+  position: absolute !important;
+  top: 0;
+  right: 25%; }
 
 .rotate-angle-icon {
   transform: rotate(180deg); }

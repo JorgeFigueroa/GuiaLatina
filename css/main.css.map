@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,qBAAqB;EACpB,QAAQ,EAAE,mBAAkB;EAC5B,GAAG,ECUO,CAAC;EDTX,KAAK,ECae,GAAG;;ADRxB,KAAK;EACJ,YAAY,EAAE,KAAK;;AAGpB,aAAa;EACZ,KAAK,ECba,MAAM;EDcxB,QAAQ,EAAE,IAAI;;AAKf,WAAW;EACV,UAAU,EChBQ,SAAS;;ADmB5B,kBAAkB;EACjB,SAAS,EAAE,cAAuB;;AAKnC,yBAA8B;EAC7B,aAAa;IACZ,OAAO,EAAE,IAAI;AE/Bf,SAAS;EACR,QAAQ,EAAC,QAAQ;EACjB,GAAG,EDUO,CAAC;ECTX,IAAI,EDWO,CAAC",
-"sources": ["../sass/main/_utilities.scss","../sass/main/_variables.scss","../sass/main/_index.scss"],
+"mappings": "AAEA,KAAK;EACJ,YAAY,EAAE,KAAK;;AAGpB,aAAa;EACZ,KAAK,ECLa,MAAM;EDMxB,QAAQ,EAAE,IAAI;;AENf,WAAW;EACV,UAAU,EDGQ,SAAS;;AEJ5B,qBAAqB;EACpB,QAAQ,EAAE,mBAAkB;EAC5B,GAAG,EFUO,CAAC;EETX,KAAK,EFae,GAAG;;AEVxB,kBAAkB;EACjB,SAAS,EAAE,cAAuB;;AAKnC,yBAA8B;EAC7B,aAAa;IACZ,OAAO,EAAE,IAAI;ACZf,SAAS;EACR,QAAQ,EAAC,QAAQ;EACjB,GAAG,EHQO,CAAC;EGPX,IAAI,EHSO,CAAC",
+"sources": ["../sass/main/_tables.scss","../sass/main/_variables.scss","../sass/main/_transiciones.scss","../sass/main/_utilities.scss","../sass/main/_index.scss"],
 "names": [],
 "file": "main.css"
 }
