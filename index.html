@@ -70,119 +70,295 @@
 	<section class="container">
 		<div class="row">
 			<div class="col-md-4 mt-2">
-				<button class="border border-primary bg-white btn-block text-primary btn btn-white">
-					<div class="row">
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-utensils fa-lg mt-1"></i>
-							</div>
-						</div>
-						<div class="col-sm-8">
-							<div class="d-inline text-center">
-								<span class="d-block">
-									<strong>Restaurantes</strong>
-								</span>
-							</div>
-						</div>
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-angle-down fa-lg mt-2"></i>
+				<div class="card border-primary text-primary">
+					<div id="hasDropDown">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-2 text-center">
+									<div class="d-inline text-center">
+										<i class="fas fa-utensils fa-lg mt-1"></i>
+									</div>
+								</div>
+								<div class="col-sm-8 text-center">
+									<div class="d-inline">
+										<span class="d-block">
+											<strong>Restaurantes</strong>
+										</span>
+									</div>
+								</div>
+								<div class="col-sm-2 text-center">
+									<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="DropBtn">
+										<i class="fas fa-angle-down text-primary fa-lg"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</button>
+					<div class="card border-0 display-none" id="Dropdown">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Rest.</small>
+									</a>
+								</div>
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Inport.</small>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<div class="col-md-4 mt-2">
-				<button class="border border-primary bg-white btn-block text-primary btn btn-white">
-					<div class="row">
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-plane fa-lg mt-1"></i>
-							</div>
-						</div>
-						<div class="col-sm-8">
-							<div class="d-inline text-center">
-								<span class="d-block">
-									<strong>Viajes - Paquetería</strong>
-								</span>
-							</div>
-						</div>
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-angle-down fa-lg mt-2"></i>
+				<div class="card border-primary text-primary">
+					<div id="hasDropDown1">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-2 text-center">
+									<div class="d-inline">
+										<i class="fas fa-plane fa-lg mt-1"></i>
+									</div>
+								</div>
+								<div class="col-sm-8 text-center">
+									<div class="d-inline">
+										<span class="d-block">
+											<strong>Viajes - Paquetería</strong>
+										</span>
+									</div>
+								</div>
+								<div class="col-sm-2 text-center">
+									<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="DropBtn1">
+										<i class="fas fa-angle-down text-primary fa-lg"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</button>
+					<div class="card border-0 display-none" id="Dropdown1">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Pasajes</small>
+									</a>
+								</div>
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Tours</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Envios</small> <br>
+										<small>Dinero - Paquetes</small>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<div class="col-md-4 mt-2">
-				<button class="border border-primary bg-white btn-block text-primary btn btn-white">
-					<div class="row">
-						<div class="col-sm-2 text-center">
-							<div class="d-inline">
-								<i class="fas fa-briefcase fa-lg mt-1"></i>
-							</div>
-						</div>
-						<div class="col-sm-8 text-center">
-							<div class="d-inline">
-								<span class="d-block">
-									<strong>Profesionales - Técnicos</strong>
-								</span>
-							</div>
-						</div>
-						<div class="col-sm-2 text-center">
-							<div class="d-inline">
-								<i class="fas fa-angle-down fa-lg mt-2"></i>
+				<div class="card border-primary text-primary">
+					<div id="hasDropDown2">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-2 text-center">
+									<div class="d-inline">
+										<i class="fas fa-briefcase fa-lg mt-1"></i>
+									</div>
+								</div>
+								<div class="col-sm-8 text-center">
+									<div class="d-inline">
+										<span class="d-block">
+											<strong>Profesionales - Técnicos</strong>
+										</span>
+									</div>
+								</div>
+								<div class="col-sm-2 text-center">
+									<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="DropBtn2">
+										<i class="fas fa-angle-down text-primary fa-lg"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</button>
+					<div class="card border-0 display-none" id="Dropdown2">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Abogados</small>
+									</a>
+								</div>
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Dentistas</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Doctores</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Caf</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Financiamientos</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Mecánica</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Edilicia</small>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
 			<div class="col-md-4 mt-2">
-				<button class="border border-primary bg-white btn-block text-primary btn btn-white">
-					<div class="row">
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-music fa-lg mt-1"></i>
-							</div>
-						</div>
-						<div class="col-sm-8">
-							<div class="d-inline text-center">
-								<span class="d-block">
-									<strong>Fiesta - Animación</strong>
-								</span>
-							</div>
-						</div>
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-angle-down fa-lg mt-2"></i>
+				<div class="card border-primary text-primary">
+					<div id="hasDropDown3">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-2 text-center">
+									<div class="d-inline">
+										<i class="fas fa-music fa-lg mt-1"></i>
+									</div>
+								</div>
+								<div class="col-sm-8 text-center">
+									<div class="d-inline">
+										<span class="d-block">
+											<strong>Fiesta - Animación</strong>
+										</span>
+									</div>
+								</div>
+								<div class="col-sm-2 text-center">
+									<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="DropBtn3">
+										<i class="fas fa-angle-down text-primary fa-lg"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</button>
+					<div class="card border-0 display-none" id="Dropdown3">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Animadores</small>
+									</a>
+								</div>
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Payasos</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Cantantes</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Tortas</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Decoradores</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Locales</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Filmación</small>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
+
 			<div class="col-md-4 mt-2 mb-2">
-				<button class="border border-primary bg-white btn-block text-primary btn btn-white">
-					<div class="row">
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-heart fa-lg mt-1"></i>
-							</div>
-						</div>
-						<div class="col-sm-8">
-							<div class="d-inline text-center">
-								<span class="d-block">
-									<strong>Bienestar - Belleza</strong>
-								</span>
-							</div>
-						</div>
-						<div class="col-sm-2">
-							<div class="d-inline text-center">
-								<i class="fas fa-angle-down fa-lg mt-2"></i>
+				<div class="card border-primary text-primary">
+					<div id="hasDropDown4">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-2 text-center">
+									<div class="d-inline">
+										<i class="fas fa-heart fa-lg mt-1"></i>
+									</div>
+								</div>
+								<div class="col-sm-8 text-center">
+									<div class="d-inline">
+										<span class="d-block">
+											<strong>Bienestar - Belleza</strong>
+										</span>
+									</div>
+								</div>
+								<div class="col-sm-2 text-center">
+									<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="DropBtn4">
+										<i class="fas fa-angle-down text-primary fa-lg"></i>
+									</button>
+								</div>
 							</div>
 						</div>
 					</div>
-				</button>
+					<div class="card border-0 display-none" id="Dropdown4">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Estéticas</small>
+									</a>
+								</div>
+								<div class="col-sm-6">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Peluquería</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Productos de salud</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Belleza</small>
+									</a>
+								</div>
+								<div class="col-sm-6 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Tiendas</small>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -194,6 +370,9 @@
 	<script src="js/jquery.min.js"></script>
 	<!-- Bootstrap v4.0.0 -->
 	<script src="js/bootstrap.min.js"></script>
+	<!-- index.js -->
+	<script src="js/index.js"></script>
+
 	
 
 </body>
