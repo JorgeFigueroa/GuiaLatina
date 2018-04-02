@@ -1,0 +1,10 @@
+// Ajuste a las tablas
+
+table{
+	table-layout: fixed;
+}
+
+#tableMenu th{
+	width: $table-menu-width;
+	overflow: auto;
+}

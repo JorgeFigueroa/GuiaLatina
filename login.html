@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Bootstrap v4.0.0 -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+	<!-- Main styles -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Awesome Fonts -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+	<title></title>
+</head>
+<body class="bg-light">
+
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">
+				<img src="img/logo.png" width="90">
+			</a>
+			<a href="detalles.html" class="text-dark nav-link">
+				<i class="fas fa-times fa-lg"></i>
+			</a>
+		</div>
+	</nav>
+
+	<section class="jumbotron jumbotron-fluid">
+		<div class="container text-center">
+			<h3 class="italic text-dark"><em>¡Bienvenidos!</em></h3>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="card bg-white border-0 rounded-0 mb-2">
+			<div class="card-header bg-white border-0 px-0 py-0">
+				<div id="rootwizard">
+					<ul class="row mt-1">
+						<li class="col-sm-6">
+							<a href="#facebookLogin" class="btn btn-light btn-sm rounded-0 btn-block" data-toggle="tab">
+								<i class="fab fa-facebook-square fa-2x text-facebook"></i>
+								&nbsp;<span class="h5">Facebook</span>
+							</a>
+						</li>
+						<li class="col-sm-6">
+							<a href="#emailLogin" class="btn btn-light btn-sm rounded-0 btn-block" data-toggle="tab">
+								<i class="far fa-envelope fa-2x"></i>
+								&nbsp;<span class="h5">Correo</span>
+							</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="card-body tab-pane" id="facebookLogin">
+							<div class="mt-5 mb-5 text-center">
+								<p class="text-darkest">
+									<strong>Accede de forma rápida y sencilla</strong>
+								</p>
+								<a href="resumen_pedido.html" class="btn btn-lg btn-block bg-facebook text-light mt-5 mb-5">
+									<i class="fab fa-facebook-f fa-lg"></i>
+									<span class="ml-4">Ingresa con Facebook</span>
+								</a>
+								<p class="text-dark">
+									<small>
+										Guíalatina recibirá:<br>
+										Tu perfil y dirección de correo electrónico
+									</small>
+								</p>
+								<div class="mt-5 mb-5 text-left">
+									<i class="fas fa-check text-primary"></i>
+									<small class="text-dark">Nunca publicaremos nada sin tu permiso</small>
+								</div>	
+							</div>
+						</div>
+						<div class="card-body tab-pane" id="emailLogin">
+							<div class="text-center">
+								<p class="text-darkest">
+									<strong>Ingresa con tu Email</strong>
+								</p>
+								<div class="form-group">
+									<input type="email" name="" placeholder="Email" class="form-control form-control-lg">
+								</div>
+								<div class="form-group">
+									<input type="password" name="" placeholder="Password" class="form-control form-control-lg">
+								</div>
+								<div class="form-group">
+									<a href="resumen_pedido.html" class="btn btn-lg btn-danger btn-block btn-lg">INICIAR SESION</a>
+								</div>
+								<a href="" class="d-inline-block py-1 border-bottom border-darkest text-darkest">Olvide mi password</a>
+								<div class="card-footer mt-3 border-top border-primary text-center bg-white rounded-0">
+									<i class="fas fa-user fa-2x"></i>
+									<p>
+										<strong>No tienes cuenta?</strong>
+									</p>
+									<a href="registro.html" class="d-inline-block py-1 border-bottom border-primary">
+										Registrate aqui
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- jQuery v3.1.1 -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap v4.0.0 -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jQuery Bootstrap Wizard -->
+	<script src="js/jquery.bootstrap.wizard.min.js"></script>
+	<!-- Main Script -->
+	<script src="js/login.js"></script>
+	
+
+</body>
+</html>

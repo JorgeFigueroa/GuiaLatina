@@ -1,9 +1,9 @@
-.log-icon{
-	position:absolute; 
-	left:-1%; 
-	top:-15%;
-}
+// Solo aplicable al index
 
-.ml40{
-	margin-left:35px!important;
+// Icono de login
+
+.log-icon{
+	position:absolute;
+	top: $top-init;
+	left: $left-init;
 }

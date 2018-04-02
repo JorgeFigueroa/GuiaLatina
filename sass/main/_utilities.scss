@@ -1,44 +1,19 @@
-.pill-radius{
-	border-radius: $pill-radius;
-}
-
-.bolder{
-	font-weight: bolder;
-}
-
-// Display Options
-
-.display-container{
-	position: relative;
-}
-
-.display-none{
-	display: none;
-}
+// Opciones de display
 
 .display-notification{
 	position: absolute!important;
-	top: 0;
-	right: 25%;
+	top: $top-init;
+	right: $right-notification;
 }
 
-table{
-	table-layout: fixed;
+.rotate-angle-icon{
+	transform: rotate($rotation-angle);
 }
 
-#tableMenu th{
-	width:170px;
-	overflow: auto;
-}
+// Para resoluciones de 750px hacia abajo
 
-.transition{
-	transition: ease 0.5s;
-}
-
-.rotate{
-	transform: rotate(180deg);
-}
-
-.outline-none{
-	outline: none!important;
+@media (max-width: $max-width){
+	.display-none{
+		display: none;
+	}
 }

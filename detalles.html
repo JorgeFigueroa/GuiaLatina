@@ -11,6 +11,9 @@
 	<!-- Main styles -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
+	<!-- LighBox Styles -->
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+
 	<!-- Awesome Fonts -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
@@ -37,7 +40,7 @@
 
 
 	<article class="container">
-		<div class="row">
+		<div class="row mb-2">
 			<div class="col-md-12">
 				<div class="card border-0 rounded-0 mt-2">
 					<div class="card-body mt-0 mb-0">
@@ -48,601 +51,1023 @@
 							<div class="col-sm-8">
 								<strong>Aki Me Quedo</strong><br>
 								<small>
-								Via Nicola D'Apulia, 4, Milano, MI, Italia ,
+									Via Nicola D'Apulia, 4, Milano, MI, Italia ,
 								</small><br>
-								<small><strong class="text-dark">Restaurante Peruano</strong></small>
+								<small>
+									<strong class="text-dark">Restaurante Peruano</strong>
+								</small>
 							</div>
 							<div class="col-sm-12">
-								<small><strong class="text-success">Hoy Lunes Abierto de 19.00 a 22.00</strong></small>
+								<small>
+									<strong class="text-success">Hoy Lunes Abierto de 19.00 a 22.00</strong>
+								</small>
 							</div>
 						</div>
 					</div>
-					<div class="card-footer mt-0 mb-0 border-0 bg-white">
+					<div class="card-footer mt-0 mb-0 border-0 bg-white p-0">
 						<div class="row mt-4">
-							<div class="col-sm-12">
+							<div class="col-sm-7">
 								<button class="btn bg-white border-0 text-dark btn-sm">
+									<br>
 									<i class="fas fa-star"></i>
 									<small class="text-primary">3</small>
 								</button>
 								<button class="btn bg-white border-0 text-dark btn-sm">
+									<br>
 									<i class="fas fa-eye"></i>
 									<small class="text-primary">30 Vistas</small>
 								</button>
 								<button class="btn bg-white border-0 text-dark btn-sm">
+									<br>
 									<i class="fas fa-comments"></i>
 									<small class="text-primary">5</small>
 								</button>
-								<a href="" class="btn bg-white text-dark btn-sm float-right display-container">
+							</div>
+							<div class="col-sm-5 text-center text-right">
+								<a href="" class="btn bg-white text-dark btn-sm position-relative float-right">
 									<span class="display-notification badge badge-primary rounded-circle">3</span>
 									<i class="fas fa-tag"></i><br>
 									<small class="text-primary">PROMO</small>
 								</a>
-								<a href="" class="btn bg-white text-dark btn-sm float-right mr-1 display-container">
+								<a href="" class="btn bg-white text-dark btn-sm position-relative float-right">
 									<span class="display-notification badge badge-primary rounded-circle">2</span>
 									<i class="fas fa-calendar"></i><br>
 									<small class="text-primary">EVENTOS</small>
 								</a>
-							</div>
+							</div>	
 						</div>
 					</div>
 
-						<div class="card-body">	
-							<div class="row">
-								<div class="col-sm-12 mt-2">
-									<div class="card border-0">
-										<div class="card-body">
-											<div class="row">
-												<div class="col-sm-8 text-left">
-													<small class="text-primary">SERVICIOS-HORARIO-MENU</small>
-												</div>
-												<div class="col-sm-4 text-right">
-													<button class="bg-white border-0 text-right transition outline-none" id="hasDropDown">
-														<i class="fas fa-angle-down text-primary fa-lg"></i>
-													</button>
-												</div>
-												<div class="col-sm-12 display-none" id="dropDownItem">
-													<div class="row">
-														<div class="col-md-6 col-sm-12">
-															<small>Acceso disabili, wi-fi, Parcheggio, Carta di credito,</small><br>
-															<ul class="list-unstyled">
-																<li>
-																	<small>
-																		<strong class="text-primary">LUNES:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">MARTES:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">MIERCOLES:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">JUEVES:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">VIERNES:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">SABADO:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-																<li>
-																	<small>
-																		<strong class="text-primary">DOMINGO:</strong>
-																		de 11 :00 a 15:00 y de  18.00 a 24.00
-																	</small>
-																</li>
-															</ul>
+					<div class="card-body">	
+							<div class="col-sm-12 mt-2">
+								<div class="card border-0">
+									<div class="row">
+										<div class="col-sm-12 bg-white border-0">
+											<div class="card border-0">
+												<div class="card-body">
+													<div class="row" id="hasDropDown">
+														<div class="col-sm-8 text-left">
+															<small class="text-primary">
+															<strong>SERVICIOS-HORARIO-MENU</strong>
+															</small>
 														</div>
-														<div class="col-md-6 col-sm-12">
-															<div class="table-responsive">
-																<table class="table table-sm">
-																	<thead>
-																		<tr id="tableMenu">
-																			<th>
-																				<small>
-																					<strong class="text-primary">LUNES</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">MARTES</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">MIERCOLES</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">JUEVES</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">VIERNES</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">SABADO</strong>
-																				</small>
-																			</th>
-																			<th>
-																				<small>
-																					<strong class="text-primary">DOMINGO</strong>
-																				</small>
-																			</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																		</tr>
-																		<tr>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																			<td>
-																				<small>
-																					<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-																				</small>
-																			</td>
-																		</tr>
-																	</tbody>
-																</table>
+														<div class="col-sm-4 text-right d-lg-none d-md-none">
+															<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="dropbtn1">
+																<i class="fas fa-angle-down text-primary fa-lg"></i>
+															</button>
+														</div>
+													</div>
+													<div class="col-sm-12 display-none" id="dropDownItem">
+														<div class="row">
+															<div class="col-md-6 col-sm-12">
+																<small>Acceso disabili, wi-fi, Parcheggio, Carta di credito,</small><br>
+																<ul class="list-unstyled">
+																	<li>
+																		<small>
+																			<strong class="text-primary">LUNES:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">MARTES:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																			</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">MIERCOLES:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">JUEVES:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">VIERNES:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">SABADO:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																	<li>
+																		<small>
+																			<strong class="text-primary">DOMINGO:</strong>
+																			de 11 :00 a 15:00 y de  18.00 a 24.00
+																		</small>
+																	</li>
+																</ul>
+															</div>
+															<div class="col-md-6 col-sm-12">
+																<div class="table-responsive">
+																	<table class="table table-sm">
+																		<thead>
+																			<tr id="tableMenu">
+																				<th>
+																					<small>
+																						<strong class="text-primary">LUNES</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">MARTES</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">MIERCOLES</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">JUEVES</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">VIERNES</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">SABADO</strong>
+																					</small>
+																				</th>
+																				<th>
+																					<small>
+																						<strong class="text-primary">DOMINGO</strong>
+																					</small>
+																				</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>ENTRADA:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>SEGUNDO:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																				<td>
+																					<small>
+																						<strong>BEBIDA-POSTRE:</strong> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+																					</small>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
+									</div>
+								</div>
 
+									<!-- EVENTO-PROMO section -->
 
+								<div class="row">
+									<div class="col-sm-12 mt-2">
+										<div class="card border-primary rounded-0">
+											<div class="card-body">
+												<div id="hasDropDown2">
+													<div class="row">
+														<div class="col-sm-4 col-md-6 text-left col-md-6">
+															<i class="fas fa-calendar fa-lg text-primary"></i>
+															<small>
+																<strong>EVENTO</strong>
+															</small>
+														</div>
+														<div class="col-sm-4 text-left d-lg-none d-md-none">
+															<span id="promoIcon">
+																<i class="fas fa-tag fa-lg text-primary"></i>
+																<small>
+																	<strong>PROMO</strong>
+																</small>
+															</span>
+														</div>
+														<div class="col-sm-4 text-right d-md-none d-lg-none">
+															<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="dropbtn2">
+																<i class="fas fa-angle-down text-primary fa-lg"></i>
+															</button>
+														</div>
+													</div>
+												</div>
 
-							<!-- EVENTO-PROMO section -->
-						<div class="row">
-							<div class="col-sm-12 mt-2">
-								<div class="card border-primary rounded-0">
-									<div class="card-body">
-										<div class="row">
-											<div class="col-sm-4 text-left col-md-6">
-												<i class="fas fa-calendar fa-lg text-primary"></i>
-												<small>
-													<strong>EVENTO</strong>
-												</small>
-											</div>
-											<div class="col-sm-4 text-left">
-												<i class="fas fa-tag fa-lg text-primary"></i>
-												<small>
-													<strong>PROMO</strong>
-												</small>
-											</div>
-											<div class="col-sm-4 text-right d-md-none d-lg-none">
-												<button class="bg-white border-0 text-right transition">
-													<i class="fas fa-angle-down text-primary fa-lg"></i>
-												</button>
+												<!-- EVENTO dropdown -->
+										
+												<div class="row mt-2 mb-2 display-none" id="dropDownItem2">
+													<div class="col-sm-12 col-md-12 text-center">
+														<img src="img/img3.png" class="img-fluid" alt="Evento">
+													</div>
+													<div class="col-sm-12 mt-2 col-md-12">
+														<div class="row" id="hasIntDropDown2">
+															<div class="col-sm-8 col-md-12">
+																<p class="mb-0">
+																	<small>
+																		<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																	</small><br>
+																	<small class="text-success">Hrs. 22:30</small>
+																</p>
+															</div>
+															<div class="col-sm-4 text-right d-md-none d-lg-none">
+																<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="intDropBtn2">
+																	<i class="fas fa-angle-down text-primary fa-lg"></i>
+																</button>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="row">
+																	<div class="col-sm-6 mb-3 mt-3">
+																		<small>
+																			<strong>DIA DE LA MADRE</strong>
+																		</small>
+																	</div>
+																	<div class="col-sm-6 text-right mb-3 mt-3">
+																		<p class="mb-0">
+																			<del>
+																				<i class="fas fa-euro-sign fa-lg"></i>
+																				45
+																			</del>&nbsp;
+																			<span class="text-primary">
+																				<i class="fas fa-euro-sign fa-lg"></i>
+																				20
+																			</span>
+																		</p>
+																	</div>
+																	<div class="col-sm-12 mt-2 mb-2 display-none" id="intDropDown2">
+																		<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																		<div class="col-sm-12 mt-3 mb-4">
+																			<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>PARTICIPA</strong></a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<!-- PROMO dropdown -->
+
+															<!-- First Promo -->
+
+														<div class="row">
+															<div class="col-sm-12 border-top border-primary">
+																<p class="mb-0 mt-3 mb-3">
+																	<i class="fas fa-tag fa-lg text-primary"></i>
+																	<small>
+																		<strong>PROMO</strong>
+																	</small>
+																</p>
+															</div>
+															<div class="col-sm-12 col-md-6">
+																<img src="img/img4.png" class="img-fluid" alt="promo">
+															</div>
+															<div class="col-sm-12 mt-2 col-md-6">
+																<div class="row" id="hasIntDropDown3">
+																	<div class="col-sm-8">
+																		<p class="mb-0">
+																			<small>
+																				<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																			</small><br>
+																			<small class="text-success">Hrs. 22:30</small>
+																		</p>
+																	</div>
+																	<div class="col-sm-4 text-right d-lg-nona d-md-none">
+																		<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn3">
+																			<i class="fas fa-angle-down text-primary fa-lg"></i>
+																		</button>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-sm-12 col-md-12">
+																		<div class="row">
+																			<div class="col-sm-7 mb-3 mt-3">
+																				<small>
+																					<strong>POR EL DIA DE LA MADRE</strong>
+																				</small>
+																			</div>
+																			<div class="col-sm-5 text-right mb-3 mt-3">
+																				<p class="mb-0">
+																					<del>
+																						<i class="fas fa-euro-sign fa-lg"></i>
+																						45
+																					</del>&nbsp;
+																					<span class="text-primary">
+																						<i class="fas fa-euro-sign fa-lg"></i>
+																						20
+																					</span>
+																				</p>
+																			</div>
+																			<div class="col-sm-12 mt-2 display-none"  id="intDropDown3">
+																				<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																				<div class="col-sm-12 mt-3">
+																					<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+								
+														<!-- Second Promo -->
+
+														<div class="row mt-4">
+															<div class="col-sm-12 col-md-6">
+																<img src="img/img5.png" class="img-fluid" alt="promo">
+															</div>
+															<div class="col-sm-12 col-md-6 mt-2">
+																<div class="row" id="hasIntDropDown4">
+																	<div class="col-sm-8">
+																		<p class="mb-0">
+																			<small>
+																				<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																			</small><br>
+																			<small class="text-success">Hrs. 22:30</small>
+																		</p>
+																	</div>
+																	<div class="col-sm-4 text-right d-lg-nona d-md-none">
+																		<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn4">
+																			<i class="fas fa-angle-down text-primary fa-lg"></i>
+																		</button>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-sm-12">
+																		<div class="row">
+																			<div class="col-sm-7 mt-3 mb-3">
+																				<small>
+																					<strong>POR EL DIA DE LA MADRE</strong>
+																				</small>
+																			</div>
+																			<div class="col-sm-5 text-right mt-3 mb-3">
+																				<p class="mb-0">
+																					<del>
+																						<i class="fas fa-euro-sign fa-lg"></i>
+																						45
+																					</del>&nbsp;
+																					<span class="text-primary">
+																						<i class="fas fa-euro-sign fa-lg"></i>
+																						20
+																					</span>
+																				</p>
+																			</div>
+																			<div class="col-sm-12 col-md-12 mt-2 mb-2 display-none" id="intDropDown4">
+																				<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																				<div class="col-sm-12 mt-3">
+																					<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
+									</div> 
+								</div><!-- EVENTO-PROMO section close -->
 
-									<!-- EVENTO dropdown -->
-										
-										<div class="row mt-2 mb-2">
-											<div class="col-sm-12 col-md-6">
-												<img src="img/img3.png" class="img-fluid" alt="Evento">
-											</div>
-											<div class="col-sm-12 mt-2 col-md-6">
-												<div class="row">
-													<div class="col-sm-6 col-md-12">
-														<p class="mb-0">
+								<div class="row">
+									<div class="col-sm-12 mt-2">
+										<div class="card border-primary rounded-0">
+											<div class="card-body">
+												<div id="hasIntDropDown5">
+													<div class="row">
+														<div class="col-sm-7 text-left">
+															<i class="fas fa-utensils fa-lg text-primary"></i>
 															<small>
-																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
-															</small><br>
-															<small class="text-success">Hrs. 22:30</small>
+																<strong>PLATOS A LA CARTA</strong>
+															</small>
+														</div>
+														<div class="col-sm-5 text-right">
+															<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn5">
+																<i class="fas fa-angle-down text-primary fa-lg"></i>
+															</button>
+														</div>
+													</div>
+												</div>
+												<div class="row display-none" id="dropDownItem5">
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Ceviche de Pescado</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="ceviche_de_pescado">
+																  <label class="custom-control-label" for="ceviche_de_pescado"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Leche de Tigre</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="leche_de_tigre">
+																  <label class="custom-control-label" for="leche_de_tigre"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Salchipapas</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="salchipapas">
+																  <label class="custom-control-label" for="salchipapas"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Aeropuerto</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Aeropuerto" disabled>
+																  <label class="custom-control-label" for="Aeropuerto"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Pescado a lo macho</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="pescado_a_lo_macho">
+																  <label class="custom-control-label" for="pescado_a_lo_macho"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Anticuchos</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Anticuchos">
+																  <label class="custom-control-label" for="Anticuchos"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Pollo a la brasa</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Pollo_a_la_brasa">
+																  <label class="custom-control-label" for="Pollo_a_la_brasa"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Cuy Asado</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="cuy_asado">
+																  <label class="custom-control-label" for="cuy_asado"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Ceviche de Pescado</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="ceviche_de_pescado2">
+																  <label class="custom-control-label" for="ceviche_de_pescado2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Leche de Tigre</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="leche_de_tigre2">
+																  <label class="custom-control-label" for="leche_de_tigre2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Salchipapas</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="salchipapas2">
+																  <label class="custom-control-label" for="salchipapas2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Aeropuerto</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Aeropuerto2">
+																  <label class="custom-control-label" for="Aeropuerto2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Pescado a lo macho</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="pescado_a_lo_macho2">
+																  <label class="custom-control-label" for="pescado_a_lo_macho2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Anticuchos</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Anticuchos2">
+																  <label class="custom-control-label" for="Anticuchos2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Pollo a la brasa</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="Pollo_a_la_brasa2">
+																  <label class="custom-control-label" for="Pollo_a_la_brasa2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
+														<div class="row">
+															<div class="col-sm-8 text-left">
+																<small>Cuy Asado</small>
+															</div>
+															<div class="col-sm-3 text-center">
+																<small>
+																	<i class="fas fa-euro-sign"></i>
+																	15
+																</small>
+															</div>
+															<div class="col-sm-1">
+																<div class="custom-control custom-checkbox">
+																  <input type="checkbox" class="custom-control-input" id="cuy_asado2">
+																  <label class="custom-control-label" for="cuy_asado2"></label>
+																</div>	
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-12 text-center mt-2 border-top border-primary">
+														<p class="text-primary">
+															Selecciona los platos<br> que prefieras y realiza tu
 														</p>
 													</div>
-													<div class="col-sm-6 text-right d-md-none d-lg-none">
-														<button class="bg-white border-0 text-right transition">
+													<div class="col-sm-12">
+														<a href="calendario.html" class="btn btn-danger btn-block btn-lg">RESERVA GRATIS</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-sm-12 mt-2">
+										<div class="card border-primary rounded-0">
+											<div class="card-body">
+												<div id="hasIntDropDown6">
+													<div class="row">
+														<div class="col-sm-8 text-left">
+															<i class="fas fa-images fa-lg text-primary"></i>
+															<small>
+																<strong>GALERIA FOTO-VIDEO</strong>
+															</small>
+														</div>
+														<div class="col-sm-4 text-right">
+															<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn6">
+																<i class="fas fa-angle-down text-primary fa-lg"></i>
+															</button>
+														</div>
+													</div>
+												</div>
+
+												<div class="row display-none" id="intDropDown6">
+													<div class="col-sm-12">
+														<div class="row">
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo1.png" alt="photo" data-lightbox="fotos"><img src="img/photo1.png" class="img-fluid"></a>
+															</div>
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo2.png" alt="photo" data-lightbox="fotos"><img src="img/photo2.png" class="img-fluid"></a>
+															</div>
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo3.png" alt="photo" data-lightbox="fotos"><img src="img/photo3.png" class="img-fluid"></a>
+															</div>
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo4.png" alt="photo" data-lightbox="fotos"><img src="img/photo4.png" class="img-fluid"></a>
+															</div>
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo5.png" alt="photo" data-lightbox="fotos"><img src="img/photo5.png" class="img-fluid"></a>
+															</div>
+															<div class="col-sm-4 mt-2">
+																<a href="img/photo6.png" alt="photo" data-lightbox="fotos"><img src="img/photo6.png" class="img-fluid"></a>
+															</div>	
+														</div>
+													</div>
+
+													<div class="col-sm-12 border-top border-primary mt-2">
+														<div class="row mt-2">
+															<div class="col-sm-4">
+																<a href="img/video1.png" alt="photo" data-lightbox="videos"><img src="img/video1.png" class="img-fluid"></a>
+															</div>	
+															<div class="col-sm-4">
+																<a href="img/video2.png" alt="photo" data-lightbox="videos"><img src="img/video2.png" class="img-fluid"></a>
+															</div>	
+															<div class="col-sm-4">
+																<a href="img/video3.png" alt="photo" data-lightbox="videos"><img src="img/video3.png" class="img-fluid"></a>
+															</div>	
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>	
+								</div>
+
+								<div class="row">
+									<div class="col-sm-12 mt-2">
+										<div class="card border-primary rounded-0">
+											<div class="card-body">
+												<div id="hasIntDropDown7">
+													<div class="row">
+														<div class="text-left col-sm-6">
+															<i class="fas fa-map fa-lg text-primary"></i>
+															<small>
+																<strong>MAPA</strong>
+															</small>
+														</div>
+														<div class="col-sm-6 text-right">
+															<button class="btn btn-sm bg-white btn btn-sm border-0 text-right transition" id="intDropBtn7">
+																<i class="fas fa-angle-down text-primary fa-lg"></i>
+															</button>
+														</div>
+													</div>
+												</div>
+
+												<div class="row mt-2 display-none" id="intDropDown7">
+													<div class="col-sm-12">
+														<img src="img/map.png" class="img-fluid" alt="map">
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="col-sm-12 mt-2">
+										<div class="card border-primary rounded-0">
+											<div class="card-body">
+												<div class="row">
+													<div class="col-sm-6 text-left">
+														<i class="fas fa-user-circle fa-lg text-primary"></i>
+														<small>
+															<strong>OPINA-EVALUA</strong>
+														</small>
+													</div>
+													<div class="col-sm-6 text-right">
+														<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition">
 															<i class="fas fa-angle-down text-primary fa-lg"></i>
 														</button>
 													</div>
 												</div>
-												<div class="col-sm-12 col-md-12">
-													<div class="row">
-														<div class="col-sm-6">
-															<small>
-																<strong>DIA DE LA MADRE</strong>
-															</small>
-														</div>
-														<div class="col-sm-6 text-right">
-															<p class="mb-0">
-																<del>
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	45
-																</del>&nbsp;
-																<span class="text-primary">
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	20
-																</span>
-															</p>
-														</div>
-														<div class="col-sm-12 mt-2 mb-2">
-															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-														</div>
-														<div class="col-sm-12 mt-3 mb-4">
-															<button class="btn btn-danger btn-block btn-lg"><strong>PARTICIPA</strong></button>
-														</div>
-													</div>
-												</div>
 											</div>
 										</div>
+									</div>
+								</div>
 
-									<!-- PROMO dropdown -->
+								<div class="row">
+									<div class="col-sm-12 mt-5">
+										<button class="btn bg-white border-success btn-block text-success">
+											<div class="row">
+												<div class="col-sm-3">
+													<i class="fas fa-bell fa-2x mt-2"></i>
+												</div>
+												<div class="col-sm-9">
+													<p class="mt-0 mb-0">
+														<small>
+															DESEO RECIBIR NOTIFICACIONES<br> DE ESTE RESTAURANT
+														</small>
+													</p>
+												</div>
+											</div>
+										</button>
+									</div>
+								</div>
 
-										<!-- First Promo -->
+								<div class="row">
+									<div class="col-sm-12 mt-3">
+										<a href="" class="btn bg-white text-primary d-block text-right">
+											<small>VOLVER A RESTAURANTES</small>
+											<i class="fas fa-arrow-left fa-lg"></i>
+										</a>
+									</div>
+								</div>
 
+								<div class="row">
+									<div class="col-sm-12 mt-5">
 										<div class="row">
-											<div class="col-sm-12 border-top border-primary">
-												<p class="mb-0 mt-3 mb-3">
-													<i class="fas fa-tag fa-lg text-primary"></i>
+											<div class="col-sm-12 text-center">
+												<p class="text-primary">
 													<small>
-														<strong>PROMO</strong>
+														<strong>VER OTROS NEGOCIOS</strong>
 													</small>
 												</p>
 											</div>
-											<div class="col-sm-12 col-md-6">
-												<img src="img/img4.png" class="img-fluid" alt="promo">
+											<div class="col-sm-4 text-center">
+												<button class="btn btn-primary rounded-0 btn-block px-0">
+													<small class="mt-3 mb-5 d-block">PRODUCTOS</small>
+												</button>
 											</div>
-											<div class="col-sm-12 mt-2 col-md-6">
-												<div class="row">
-													<div class="col-sm-6">
-														<p class="mb-0">
-															<small>
-																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
-															</small><br>
-															<small class="text-success">Hrs. 22:30</small>
-														</p>
-													</div>
-													<div class="col-sm-6 text-right d-lg-nona d-md-none">
-														<button class="bg-white border-0 text-right transition">
-															<i class="fas fa-angle-down text-primary fa-lg"></i>
-														</button>
-													</div>
-												</div>
-												<div class="col-sm-12 col-md-12">
-													<div class="row">
-														<div class="col-sm-6">
-															<small>
-																<strong>POR EL DIA DE LA MADRE</strong>
-															</small>
-														</div>
-														<div class="col-sm-6 text-right">
-															<p class="mb-0">
-																<del>
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	45
-																</del>&nbsp;
-																<span class="text-primary">
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	20
-																</span>
-															</p>
-														</div>
-														<div class="col-sm-12 mt-2">
-															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-														</div>
-														<div class="col-sm-12 mt-3 mb-4">
-															<button class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></button>
-														</div>
-													</div>
-												</div>
+											<div class="col-sm-4 text-center">
+												<button class="btn btn-primary rounded-0 btn-block px-0">
+													<small class="mt-3 mb-5 d-block">ALIMENTOS</small>
+												</button>
+											</div>
+											<div class="col-sm-4 text-center">
+												<button class="btn btn-primary rounded-0 btn-block px-0">
+													<small class="mt-3 mb-5 d-block">PIZZA</small>
+												</button>
 											</div>
 										</div>
-
-										<!-- Second Promo -->
-
-										<div class="row mt-4">
-											<div class="col-sm-12 col-md-6">
-												<img src="img/img5.png" class="img-fluid" alt="promo">
-											</div>
-											<div class="col-sm-12 col-md-6 mt-2">
-												<div class="row">
-													<div class="col-sm-6">
-														<p class="mb-0">
-															<small>
-																<strong class="text-success">DOMINGO 27 DE MAYO</strong>
-															</small><br>
-															<small class="text-success">Hrs. 22:30</small>
-														</p>
-													</div>
-													<div class="col-sm-6 text-right d-lg-nona d-md-none">
-														<button class="bg-white border-0 text-right transition">
-															<i class="fas fa-angle-down text-primary fa-lg"></i>
-														</button>
-													</div>
-												</div>
-												<div class="col-sm-12">
-													<div class="row">
-														<div class="col-sm-6">
-															<small>
-																<strong>POR EL DIA DE LA MADRE</strong>
-															</small>
-														</div>
-														<div class="col-sm-6 text-right">
-															<p class="mb-0">
-																<del>
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	45
-																</del>&nbsp;
-																<span class="text-primary">
-																	<i class="fas fa-euro-sign fa-lg"></i>
-																	20
-																</span>
-															</p>
-														</div>
-														<div class="col-sm-12 col-md-12 mt-2 mb-2">
-															<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-														</div>
-														<div class="col-sm-12 mt-3 mb-4">
-															<button class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></button>
-														</div>
-													</div>
-												</div>
-											</div>
-
-										</div>
-
-
 									</div>
 								</div>
-							</div> 
-						</div><!-- EVENTO-PROMO section close -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-							<div class="col-sm-12 mt-2">
-								<button class="btn bg-white border-primary rounded-0 btn-block">
-									<div class="row">
-										<div class="col-sm-6 text-left">
-											<i class="fas fa-utensils fa-lg text-primary"></i>
-											<small>
-												<strong>PLATOS A LA CARTA</strong>
-											</small>
-										</div>
-										<div class="col-sm-6 text-right">
-											<i class="fas fa-angle-down fa-lg text-primary"></i>
-										</div>
-									</div>
-								</button>
-							</div>
-							<div class="col-sm-12 mt-2">
-								<button class="btn bg-white border-primary rounded-0 btn-block">
-									<div class="row">
-										<div class="col-sm-6 text-left">
-											<i class="fas fa-images fa-lg text-primary"></i>
-											<small>
-												<strong>GALERIA FOTO-VIDEO</strong>
-											</small>
-										</div>
-										<div class="col-sm-6 text-right">
-											<i class="fas fa-angle-down fa-lg text-primary"></i>
-										</div>
-									</div>
-								</button>
-							</div>	
-							<div class="col-sm-12 mt-2">
-								<button class="btn bg-white border-primary rounded-0 btn-block">
-									<div class="row">
-										<div class="text-left col-sm-6">
-											<i class="fas fa-map fa-lg text-primary"></i>
-											<small>
-												<strong>MAPA</strong>
-											</small>
-										</div>
-										<div class="col-sm-6 text-right">
-											<i class="fas fa-angle-down fa-lg text-primary"></i>
-										</div>
-									</div>
-								</button>
-							</div>
-							<div class="col-sm-12 mt-2">
-								<button class="btn bg-white border-primary rounded-0 btn-block">
-									<div class="row">
-										<div class="col-sm-6 text-left">
-											<i class="fas fa-user-circle fa-lg text-primary"></i>
-											<small>
-												<strong>OPINA-EVALUA</strong>
-											</small>
-										</div>
-										<div class="col-sm-6 text-right">
-											<i class="fas fa-angle-down fa-lg text-primary"></i>
-										</div>
-									</div>
-								</button>
-							</div>
-							<div class="col-sm-12 mt-5">
-								<button class="btn bg-white border-success btn-block text-success">
-									<div class="row">
-										<div class="col-sm-3">
-											<i class="fas fa-bell fa-2x mt-2"></i>
-										</div>
-										<div class="col-sm-9">
-											<p class="mt-0 mb-0">
-												<small>
-													DESEO RECIBIR NOTIFICACIONES<br> DE ESTE RESTAURANT
-												</small>
-											</p>
-										</div>
-									</div>
-								</button>
-							</div>
-							<div class="col-sm-12 mt-3">
-								<a href="" class="btn bg-white text-primary d-block text-right">
-									<small>VOLVER A RESTAURANTES</small>
-									<i class="fas fa-arrow-left fa-lg"></i>
-								</a>
-							</div>
-							<div class="col-sm-12 mt-5">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<p class="text-primary">
-											<small>
-												<strong>VER OTROS NEGOCIOS</strong>
-											</small>
-										</p>
-									</div>
-									<div class="col-sm-4">
-										<button class="btn btn-primary rounded-0 btn-block">
-											<small class="mt-3 mb-5 d-block">PRODUCTOS</small>
-										</button>
-									</div>
-									<div class="col-sm-4">
-										<button class="btn btn-primary rounded-0 btn-block">
-											<small class="mt-3 mb-5 d-block">ALIMENTOS</small>
-										</button>
-									</div>
-									<div class="col-sm-4">
-										<button class="btn btn-primary rounded-0 btn-block">
-											<small class="mt-3 mb-5 d-block">PIZZA</small>
-										</button>
-									</div>
-								</div>
-							</div>
+							</div>										
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
@@ -656,6 +1081,8 @@
 	<script src="js/bootstrap.min.js"></script>
 	<!-- jQuery Bootstrap Wizard -->
 	<script src="js/jquery.bootstrap.wizard.min.js"></script>
+	<!-- LightBox jQuery -->
+	<script src="js/lightbox.min.js"></script>
 	<!-- Main Scripts -->
 	<script src="js/detalles.js"></script>
 
