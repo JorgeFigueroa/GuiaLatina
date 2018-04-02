@@ -27,4 +27,96 @@ table {
 .font-small {
   font-size: 9px !important; }
 
+.calendar {
+  position: relative;
+  overflow: hidden;
+  text-transform: capitalize;
+  text-align: center;
+  font: 15px/1em inherit;
+  color: #333;
+  font-weight: bolder; }
+
+.calendar a {
+  text-decoration: none;
+  color: inherit; }
+
+.calendar header .butn {
+  display: inline-block;
+  position: absolute;
+  width: 35px;
+  padding: 0.10rem;
+  text-align: center;
+  line-height: 30px;
+  color: #777;
+  border-radius: 50%;
+  border: 2px solid #777; }
+
+.calendar header .butn:hover {
+  background: #ff6e40;
+  border-color: #ff6e40;
+  color: white; }
+
+.calendar header .butn-prev {
+  left: 0;
+  top: 0; }
+
+.calendar header .butn-next {
+  right: 0;
+  top: 0; }
+
+.calendar header .month {
+  padding: 0;
+  margin: 0; }
+
+.calendar table {
+  width: 100%;
+  margin: 20px 0;
+  border-spacing: 0px; }
+
+.calendar thead {
+  font-size: 1.0em;
+  font-weight: 600; }
+
+.calendar td {
+  padding: 0.8em 0.1em; }
+
+.calendar .day {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 1.9em;
+  border-radius: 50%;
+  border: 2px solid transparent; }
+
+.calendar .day:hover {
+  border: 2px solid #ff6e40; }
+
+.calendar .day.today {
+  background: #ff6e40;
+  color: white; }
+
+.calendar .day.wrong-month {
+  color: #999; }
+
+.calendar .day.wrong-month:hover {
+  border: 2px solid transparent; }
+
+.calendar .event-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  font-weight: bolder; }
+
+.calendar .filler {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: #333;
+  transform: translate(-50%, -50%); }
+
 /*# sourceMappingURL=main.css.map */
