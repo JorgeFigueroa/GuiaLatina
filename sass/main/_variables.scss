@@ -22,6 +22,8 @@ $right-notification: 25%;
 
 $max-width: 750px;
 
+$max-search-width: 330px;
+
 // Typography
 
 $font-small: 9px;
@@ -35,3 +37,22 @@ $grey-70: #777;
 $grey-30: #333;
 
 $primary: #ff6e40;
+
+// line-heights
+
+$line-height-small: 12px;
+
+// Menu categorias de resultados.html
+
+	// Posición
+
+	$top-cat: 0;
+	$left-cat: -80%;
+
+	// Color
+
+	$bg-cat: #FFF;
+
+	// width
+
+	$width-cat: 80%;

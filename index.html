@@ -23,14 +23,16 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container">
 			<a href="login.html" class="navbar-brand">
-				<img src="img/logo.png" width="90">
+				<img src="img/logo.png" width="70">
 			</a>
 			<a href="login.html" class="bg-white badge badge-pill text-dark position-relative">
-				<i class="fas fa-user-circle fa-2x log-icon"></i>
-				<small class="ml-4 mr-1 mt-1 mb-1 d-block">Entra a mundo latino</small>
+				<i class="fas fa-user-circle fa-lg log-icon"></i>
+				<small class="ml-3 mr-1 d-block">Entra a mundo latino</small>
 			</a>
-			<a href="" class="text-center">
-				<i class="far fa-newspaper fa-2x"></i>
+			<a href="" class="btn btn-sm p-0 text-center line-height-small">
+				<small>
+					VER<br>NOTICIAS
+				</small>
 			</a>
 		</div>
 	</nav>
@@ -41,7 +43,7 @@
 
 	<section class="jumbotron jumbotron-fluid mt-4">
 		<form action="resultados.html">
-			<div class="container">
+			<div class="container max-search-width">
 				<div class="row">
 				<form action="resultados.html">
 					<div class="col-sm-12 mb-2">
@@ -50,6 +52,8 @@
 					<div class="col-sm-8">
 						<select class="form-control border-0">
 							<option>Milano</option>
+							<option>Roma</option>
+							<option>Firenze</option>
 						</select>
 					</div>	
 					<div class="col-sm-4">
@@ -97,12 +101,13 @@
 					<div class="card border-0 display-none" id="Dropdown">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-12">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
 										<small>Rest.</small>
 									</a>
 								</div>
-								<div class="col-sm-6">
+								<div class="col-sm-12
+								mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
 										<small>Inport.</small>
 									</a>
@@ -141,20 +146,19 @@
 					<div class="card border-0 display-none" id="Dropdown1">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-12">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
 										<small>Pasajes</small>
 									</a>
 								</div>
-								<div class="col-sm-6">
+								<div class="col-sm-12 mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
 										<small>Tours</small>
 									</a>
 								</div>
 								<div class="col-sm-12 mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Envios</small> <br>
-										<small>Dinero - Paquetes</small>
+										<small>Envios - Dinero - Paquetes</small>
 									</a>
 								</div>
 							</div>
@@ -191,39 +195,19 @@
 					<div class="card border-0 display-none" id="Dropdown2">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-12">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Abogados</small>
-									</a>
-								</div>
-								<div class="col-sm-6">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Dentistas</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Doctores</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Caf</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Financiamientos</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Mecánica</small>
+										<small>Abogados - Dentistas - Doctores</small>
 									</a>
 								</div>
 								<div class="col-sm-12 mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Edilicia</small>
+										<small>Financiamientos - Caf</small>
+									</a>
+								</div>
+								<div class="col-sm-12 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Mecánica - Edilicia</small>
 									</a>
 								</div>
 							</div>
@@ -260,39 +244,19 @@
 					<div class="card border-0 display-none" id="Dropdown3">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-12">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Animadores</small>
-									</a>
-								</div>
-								<div class="col-sm-6">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Payasos</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Cantantes</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Tortas</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Decoradores</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Locales</small>
+										<small>Animadores - Payasos - Cantantes</small>
 									</a>
 								</div>
 								<div class="col-sm-12 mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Filmación</small>
+										<small>Tortas - Decoradores</small>
+									</a>
+								</div>
+								<div class="col-sm-12 mt-2">
+									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
+										<small>Locales - Filmación</small>
 									</a>
 								</div>
 							</div>
@@ -330,24 +294,14 @@
 					<div class="card border-0 display-none" id="Dropdown4">
 						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-6">
+								<div class="col-sm-12">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Estéticas</small>
+										<small>Estéticas - Peluquerías</small>
 									</a>
 								</div>
-								<div class="col-sm-6">
+								<div class="col-sm-12 mt-2">
 									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Peluquería</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Productos de salud</small>
-									</a>
-								</div>
-								<div class="col-sm-6 mt-2">
-									<a href="javascript:void(0)" class="btn btn-block border-0 btn-light rounded-0">
-										<small>Belleza</small>
+										<small>Productos de salud - Belleza</small>
 									</a>
 								</div>
 								<div class="col-sm-12 mt-2">

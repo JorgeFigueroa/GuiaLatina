@@ -1,0 +1,10 @@
+// Solo aplicable a resultados.html
+
+.display-categories-menu{
+	top: $top-cat;
+	margin-left: $left-cat;
+	z-index:1000;
+	background-color: $bg-cat;
+	width: $width-cat;
+	transition: ease 0.5s;
+}
