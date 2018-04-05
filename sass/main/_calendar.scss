@@ -12,47 +12,51 @@
   .calendar header .butn {
     display: inline-block;
     position: absolute;
-    width:35px;
-    padding: 0.10rem;
+    width:25px;
+    padding: 0.15em;
     text-align: center;
-    line-height: 30px;
-    color: $grey-70;
-    border-radius: 50%;
-    border: 2px solid $grey-70; }
+    line-height: 0;
+    color: $grey-100;
+    border-radius: $border-radius;
+    border: 2px solid $grey-100; }
   .calendar header .butn:hover {
-    background: $primary;
+    background: $white;
     border-color: $primary;
-    color: white; }
+    color: $primary; }
   .calendar header .butn-prev {
-    left: 0;
+    left: 5%;
     top: 0; }
   .calendar header .butn-next {
-    right: 0;
+    right: 5%;
     top: 0; }
   .calendar header .month {
+    font-size: $month-size;
+    font-weight: bold;
     padding: 0;
     margin: 0; }
   .calendar table {
     width: 100%;
-    margin: 20px 0;
+    margin: 0;
     border-spacing: 0px; }
   .calendar thead {
-    font-size: 1.0em;
+    font-size: $day-size;
     font-weight: 600; }
   .calendar td {
-    padding: 0.8em 0.1em; }
+    padding: $padding-days; 
+    font-size: $day-size;}
   .calendar .day {
     display: inline-block;
     width: 2em;
     height: 2em;
     line-height: 1.9em;
-    border-radius: 50%;
+    border-radius: $border-radius;
     border: 2px solid transparent; }
   .calendar .day:hover {
-    border: 2px solid $primary; }
+    border: 2px solid $primary;
+    color: $primary; }
   .calendar .day.today {
-    background: $primary;
-    color: white; }
+    border-color: $primary;
+    color: $primary; }
   .calendar .day.wrong-month {
     color: $grey-100; }
   .calendar .day.wrong-month:hover {
@@ -70,6 +74,6 @@
     position: absolute;
     width: 0;
     height: 0;
-    border-radius: 50%;
+    border-radius: $border-radius;
     background: $grey-30;
     transform: translate(-50%, -50%); }

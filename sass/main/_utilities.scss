@@ -10,6 +10,14 @@
 	transform: rotate($rotation-angle);
 }
 
+li a[data-toggle="tab"]{
+	border-bottom: solid 4px $grey-200!important;
+}
+
+li a[data-toggle="tab"].active{
+	border-bottom: solid 4px $primary!important;
+}
+
 // Para resoluciones de 750px hacia abajo
 
 @media (max-width: $max-width){

@@ -58,43 +58,40 @@
 								</small>
 							</div>
 							<div class="col-sm-12">
-								<small>
-									<strong class="text-success">Hoy Lunes Abierto de 19.00 a 22.00</strong>
+								<small class="text-success">
+									Hoy Lunes Abierto de 19.00 a 22.00
 								</small>
 							</div>
 						</div>
 					</div>
 					<div class="card-footer mt-0 mb-0 border-0 bg-white p-0">
 						<div class="row mt-4">
-							<div class="col-sm-7">
-								<button class="btn bg-white border-0 text-dark btn-sm">
-									<br>
-									<i class="fas fa-star"></i>
+							<div class="col-sm-6">
+								<button class="btn bg-white border-0 text-dark btn-sm ml-3">
+									<i class="far fa-star"></i><br>
 									<small class="text-primary">3</small>
 								</button>
 								<button class="btn bg-white border-0 text-dark btn-sm">
-									<br>
-									<i class="fas fa-eye"></i>
+									<i class="fas fa-eye"></i><br>
 									<small class="text-primary">30 Vistas</small>
 								</button>
 								<button class="btn bg-white border-0 text-dark btn-sm">
-									<br>
-									<i class="fas fa-comments"></i>
+									<i class="far fa-comments"></i><br>
 									<small class="text-primary">5</small>
 								</button>
 							</div>
-							<div class="col-sm-5 text-center text-right">
-								<a href="" class="btn bg-white text-dark btn-sm position-relative float-right">
+							<div class="col-sm-5 text-center text-right ml-1">
+								<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
 									<span class="display-notification badge badge-primary rounded-circle">3</span>
 									<i class="fas fa-tag"></i><br>
 									<small class="text-primary">PROMO</small>
-								</a>
-								<a href="" class="btn bg-white text-dark btn-sm position-relative float-right">
+								</button>
+								<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
 									<span class="display-notification badge badge-primary rounded-circle">2</span>
-									<i class="fas fa-calendar"></i><br>
+									<i class="far fa-calendar"></i><br>
 									<small class="text-primary">EVENTOS</small>
-								</a>
-							</div>	
+								</button>
+							</div>
 						</div>
 					</div>
 
@@ -104,11 +101,11 @@
 									<div class="row">
 										<div class="col-sm-12 bg-white border-0">
 											<div class="card border-0">
-												<div class="card-body">
+												<div class="card-body py-0">
 													<div class="row" id="hasDropDown">
 														<div class="col-sm-8 text-left">
 															<small class="text-primary">
-															<strong>SERVICIOS-HORARIO-MENU</strong>
+																<strong>SERVICIOS-HORARIO-MENU</strong>
 															</small>
 														</div>
 														<div class="col-sm-4 text-right d-lg-none d-md-none">
@@ -117,6 +114,8 @@
 															</button>
 														</div>
 													</div>
+												</div>
+												<div class="card-body p-0">
 													<div class="col-sm-12 display-none" id="dropDownItem">
 														<div class="row">
 															<div class="col-md-6 col-sm-12">
@@ -177,9 +176,17 @@
 																					</small>
 																				</th>
 																				<th>
-																					<small>
-																						<strong class="text-primary">MARTES</strong>
-																					</small>
+																					<div class="row">
+																						<div class="col-sm-6">
+																							<small>
+																								<strong class="text-primary">MARTES</strong>
+																							</small>
+																						</div>
+																						<div class="col-sm-6 text-center">
+																						<i class="fas fa-arrow-right fa-xs text-primary"></i>
+																							
+																						</div>
+																					</div>
 																				</th>
 																				<th>
 																					<small>
@@ -341,7 +348,7 @@
 												<div id="hasDropDown2">
 													<div class="row">
 														<div class="col-sm-4 col-md-6 text-left col-md-6">
-															<i class="fas fa-calendar fa-lg text-primary"></i>
+															<i class="far fa-calendar fa-lg text-primary"></i>
 															<small>
 																<strong>EVENTO</strong>
 															</small>
@@ -372,8 +379,8 @@
 														<div class="row" id="hasIntDropDown2">
 															<div class="col-sm-8 col-md-12">
 																<p class="mb-0">
-																	<small>
-																		<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																	<small class="text-success">
+																		DOMINGO 27 DE MAYO
 																	</small><br>
 																	<small class="text-success">Hrs. 22:30</small>
 																</p>
@@ -395,11 +402,11 @@
 																	<div class="col-sm-6 text-right mb-3 mt-3">
 																		<p class="mb-0">
 																			<del>
-																				<i class="fas fa-euro-sign fa-lg"></i>
+																				<i class="fas fa-euro-sign fa-xs"></i>
 																				45
 																			</del>&nbsp;
 																			<span class="text-primary">
-																				<i class="fas fa-euro-sign fa-lg"></i>
+																				<i class="fas fa-euro-sign fa-xs"></i>
 																				20
 																			</span>
 																		</p>
@@ -434,8 +441,8 @@
 																<div class="row" id="hasIntDropDown3">
 																	<div class="col-sm-8">
 																		<p class="mb-0">
-																			<small>
-																				<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																			<small class="text-success">
+																				DOMINGO 27 DE MAYO
 																			</small><br>
 																			<small class="text-success">Hrs. 22:30</small>
 																		</p>
@@ -457,11 +464,11 @@
 																			<div class="col-sm-5 text-right mb-3 mt-3">
 																				<p class="mb-0">
 																					<del>
-																						<i class="fas fa-euro-sign fa-lg"></i>
+																						<i class="fas fa-euro-sign fa-xs"></i>
 																						45
 																					</del>&nbsp;
 																					<span class="text-primary">
-																						<i class="fas fa-euro-sign fa-lg"></i>
+																						<i class="fas fa-euro-sign fa-xs"></i>
 																						20
 																					</span>
 																				</p>
@@ -488,8 +495,8 @@
 																<div class="row" id="hasIntDropDown4">
 																	<div class="col-sm-8">
 																		<p class="mb-0">
-																			<small>
-																				<strong class="text-success">DOMINGO 27 DE MAYO</strong>
+																			<small class="text-success">
+																				DOMINGO 27 DE MAYO
 																			</small><br>
 																			<small class="text-success">Hrs. 22:30</small>
 																		</p>
@@ -511,11 +518,11 @@
 																			<div class="col-sm-5 text-right mt-3 mb-3">
 																				<p class="mb-0">
 																					<del>
-																						<i class="fas fa-euro-sign fa-lg"></i>
+																						<i class="fas fa-euro-sign fa-xs"></i>
 																						45
 																					</del>&nbsp;
 																					<span class="text-primary">
-																						<i class="fas fa-euro-sign fa-lg"></i>
+																						<i class="fas fa-euro-sign fa-xs"></i>
 																						20
 																					</span>
 																				</p>
@@ -565,7 +572,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -585,7 +592,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -605,7 +612,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -625,7 +632,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -645,7 +652,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -665,7 +672,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -685,7 +692,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -705,7 +712,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -726,7 +733,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -746,7 +753,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -766,7 +773,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -786,7 +793,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -806,7 +813,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -826,7 +833,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -846,7 +853,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -866,7 +873,7 @@
 															</div>
 															<div class="col-sm-3 text-center">
 																<small>
-																	<i class="fas fa-euro-sign"></i>
+																	<i class="fas fa-euro-sign fa-xs"></i>
 																	15
 																</small>
 															</div>
@@ -899,7 +906,7 @@
 												<div id="hasIntDropDown6">
 													<div class="row">
 														<div class="col-sm-8 text-left">
-															<i class="fas fa-images fa-lg text-primary"></i>
+															<i class="far fa-images fa-lg text-primary"></i>
 															<small>
 																<strong>GALERIA FOTO-VIDEO</strong>
 															</small>
@@ -963,7 +970,7 @@
 												<div id="hasIntDropDown7">
 													<div class="row">
 														<div class="text-left col-sm-6">
-															<i class="fas fa-map fa-lg text-primary"></i>
+															<i class="far fa-map fa-lg text-primary"></i>
 															<small>
 																<strong>MAPA</strong>
 															</small>
@@ -993,7 +1000,7 @@
 											<div class="card-body">
 												<div class="row">
 													<div class="col-sm-6 text-left">
-														<i class="fas fa-user-circle fa-lg text-primary"></i>
+														<i class="far fa-user-circle fa-lg text-primary"></i>
 														<small>
 															<strong>OPINA-EVALUA</strong>
 														</small>

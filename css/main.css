@@ -2,7 +2,7 @@ table {
   table-layout: fixed; }
 
 #tableMenu th {
-  width: 9.5rem;
+  width: 8.5rem;
   overflow: auto; }
 
 .transition {
@@ -15,6 +15,12 @@ table {
 
 .rotate-angle-icon {
   transform: rotate(180deg); }
+
+li a[data-toggle="tab"] {
+  border-bottom: solid 4px #e6e6e6 !important; }
+
+li a[data-toggle="tab"].active {
+  border-bottom: solid 4px #ff6e40 !important; }
 
 @media (max-width: 750px) {
   .display-none {
@@ -41,6 +47,9 @@ table {
 .font-small {
   font-size: 9px !important; }
 
+.arial {
+  font-family: arial; }
+
 .calendar {
   position: relative;
   overflow: hidden;
@@ -57,42 +66,45 @@ table {
 .calendar header .butn {
   display: inline-block;
   position: absolute;
-  width: 35px;
-  padding: 0.10rem;
+  width: 25px;
+  padding: 0.15em;
   text-align: center;
-  line-height: 30px;
-  color: #777;
+  line-height: 0;
+  color: #999;
   border-radius: 50%;
-  border: 2px solid #777; }
+  border: 2px solid #999; }
 
 .calendar header .butn:hover {
-  background: #ff6e40;
+  background: #fff;
   border-color: #ff6e40;
-  color: white; }
+  color: #ff6e40; }
 
 .calendar header .butn-prev {
-  left: 0;
+  left: 5%;
   top: 0; }
 
 .calendar header .butn-next {
-  right: 0;
+  right: 5%;
   top: 0; }
 
 .calendar header .month {
+  font-size: 20px;
+  font-weight: bold;
   padding: 0;
   margin: 0; }
 
 .calendar table {
   width: 100%;
-  margin: 20px 0;
+  margin: 0;
   border-spacing: 0px; }
 
 .calendar thead {
-  font-size: 1.0em;
+  font-size: 14px;
   font-weight: 600; }
 
 .calendar td {
-  padding: 0.8em 0.1em; }
+  padding: 0.1em;
+  font-size: 14px; }
 
 .calendar .day {
   display: inline-block;
@@ -103,11 +115,12 @@ table {
   border: 2px solid transparent; }
 
 .calendar .day:hover {
-  border: 2px solid #ff6e40; }
+  border: 2px solid #ff6e40;
+  color: #ff6e40; }
 
 .calendar .day.today {
-  background: #ff6e40;
-  color: white; }
+  border-color: #ff6e40;
+  color: #ff6e40; }
 
 .calendar .day.wrong-month {
   color: #999; }

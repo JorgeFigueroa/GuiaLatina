@@ -1,6 +1,6 @@
 // Tablas
 
-$table-menu-width: 9.5rem;
+$table-menu-width: 8.5rem;
 
 // Transición
 
@@ -28,15 +28,19 @@ $max-search-width: 330px;
 
 $font-small: 9px;
 
-// Calendar Colors
+// Colors
 
 $grey-100: #999;
+
+$grey-200: #e6e6e6;
 
 $grey-70: #777;
 
 $grey-30: #333;
 
 $primary: #ff6e40;
+
+$white: #fff;
 
 // line-heights
 
@@ -56,3 +60,16 @@ $line-height-small: 12px;
 	// width
 
 	$width-cat: 80%;
+
+	// Fonts-sizes
+
+	$day-size: 14px;
+	$month-size: 20px;
+
+	// Spacing
+
+	$padding-days: 0.10em;
+
+	// Borders
+
+	$border-radius: 50%;
