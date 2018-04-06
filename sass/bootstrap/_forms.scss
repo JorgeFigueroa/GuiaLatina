@@ -217,7 +217,8 @@ select.form-control-lg {
   margin-left: -$form-check-input-gutter;
 
   &:disabled ~ .form-check-label {
-    color: $text-muted;
+    color: $light;
+    border-color: $primary;
   }
 }
 

@@ -1576,7 +1576,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   margin-top: 0.3rem;
   margin-left: -1.25rem; }
   .form-check-input:disabled ~ .form-check-label {
-    color: #6c757d; }
+    color: #e6e6e6;
+    border-color: #ff6e40; }
 
 .form-check-label {
   margin-bottom: 0; }
@@ -3186,7 +3187,7 @@ tbody.collapse.show {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 0.5rem; }
+  padding: 0.4rem; }
 
 .card-title {
   margin-bottom: 0.75rem; }
@@ -3201,10 +3202,10 @@ tbody.collapse.show {
 .card-link:hover {
   text-decoration: none; }
 .card-link + .card-link {
-  margin-left: 0.5rem; }
+  margin-left: 0.4rem; }
 
 .card-header {
-  padding: 0.75rem 0.5rem;
+  padding: 0.75rem 0.4rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
@@ -3214,21 +3215,21 @@ tbody.collapse.show {
     border-top: 0; }
 
 .card-footer {
-  padding: 0.75rem 0.5rem;
+  padding: 0.75rem 0.4rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125); }
   .card-footer:last-child {
     border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px); }
 
 .card-header-tabs {
-  margin-right: -0.25rem;
+  margin-right: -0.2rem;
   margin-bottom: -0.75rem;
-  margin-left: -0.25rem;
+  margin-left: -0.2rem;
   border-bottom: 0; }
 
 .card-header-pills {
-  margin-right: -0.25rem;
-  margin-left: -0.25rem; }
+  margin-right: -0.2rem;
+  margin-left: -0.2rem; }
 
 .card-img-overlay {
   position: absolute;

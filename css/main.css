@@ -1,8 +1,9 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 table {
   table-layout: fixed; }
 
 #tableMenu th {
-  width: 8.5rem;
+  width: 9.3rem;
   overflow: auto; }
 
 .transition {
@@ -21,6 +22,9 @@ li a[data-toggle="tab"] {
 
 li a[data-toggle="tab"].active {
   border-bottom: solid 4px #ff6e40 !important; }
+
+.bg-transparent {
+  background-color: transparent; }
 
 @media (max-width: 750px) {
   .display-none {
@@ -145,5 +149,23 @@ li a[data-toggle="tab"].active {
   border-radius: 50%;
   background: #333;
   transform: translate(-50%, -50%); }
+
+input[type=checkbox], input[type=radio] {
+  display: none; }
+
+label {
+  display: inline; }
+
+input[type=checkbox] + label:before, input[type=radio] + label:before {
+  font-family: 'FontAwesome';
+  font-size: 18px; }
+
+input[type=checkbox] + label:before, input[type=radio] + label:before {
+  content: "\f096";
+  color: #ff6e40; }
+
+input[type=checkbox]:checked + label:before, input[type=radio]:checked + label:before {
+  content: "\f046";
+  color: #ff6e40; }
 
 /*# sourceMappingURL=main.css.map */

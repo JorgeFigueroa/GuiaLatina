@@ -64,34 +64,32 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-footer mt-0 mb-0 border-0 bg-white p-0">
-						<div class="row mt-4">
-							<div class="col-sm-6">
-								<button class="btn bg-white border-0 text-dark btn-sm ml-3">
-									<i class="far fa-star"></i><br>
-									<small class="text-primary">3</small>
-								</button>
-								<button class="btn bg-white border-0 text-dark btn-sm">
-									<i class="fas fa-eye"></i><br>
-									<small class="text-primary">30 Vistas</small>
-								</button>
-								<button class="btn bg-white border-0 text-dark btn-sm">
-									<i class="far fa-comments"></i><br>
-									<small class="text-primary">5</small>
-								</button>
-							</div>
-							<div class="col-sm-5 text-center text-right ml-1">
-								<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
-									<span class="display-notification badge badge-primary rounded-circle">3</span>
-									<i class="fas fa-tag"></i><br>
-									<small class="text-primary">PROMO</small>
-								</button>
-								<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
-									<span class="display-notification badge badge-primary rounded-circle">2</span>
-									<i class="far fa-calendar"></i><br>
-									<small class="text-primary">EVENTOS</small>
-								</button>
-							</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<button class="btn bg-white border-0 text-dark btn-sm ml-3">
+								<i class="far fa-star fa-lg"></i><br>
+								<small class="text-primary">3</small>
+							</button>
+							<button class="btn bg-white border-0 text-dark btn-sm">
+								<i class="fas fa-eye fa-lg"></i><br>
+								<small class="text-primary">30 Vistas</small>
+							</button>
+							<button class="btn bg-white border-0 text-dark btn-sm">
+								<i class="far fa-comments fa-lg"></i><br>
+								<small class="text-primary">5</small>
+							</button>
+						</div>
+						<div class="col-sm-5 text-center text-right ml-1">
+							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
+								<span class="display-notification badge badge-primary rounded-circle">3</span>
+								<i class="fas fa-tag fa-lg"></i><br>
+								<small class="text-primary">PROMO</small>
+							</a>
+							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
+								<span class="display-notification badge badge-primary rounded-circle">2</span>
+								<i class="far fa-calendar fa-lg"></i><br>
+								<small class="text-primary">EVENTOS</small>
+							</a>
 						</div>
 					</div>
 
@@ -371,54 +369,58 @@
 
 												<!-- EVENTO dropdown -->
 										
-												<div class="row mt-2 mb-2 display-none" id="dropDownItem2">
-													<div class="col-sm-12 col-md-12 text-center">
-														<img src="img/img3.png" class="img-fluid" alt="Evento">
-													</div>
-													<div class="col-sm-12 mt-2 col-md-12">
-														<div class="row" id="hasIntDropDown2">
-															<div class="col-sm-8 col-md-12">
-																<p class="mb-0">
-																	<small class="text-success">
-																		DOMINGO 27 DE MAYO
-																	</small><br>
-																	<small class="text-success">Hrs. 22:30</small>
-																</p>
+												<div class="row mt-2 display-none" id="dropDownItem2">
+													<div class="col-sm-12 col-md-12">
+														<div id="hasIntDropDown2">
+															<div class="row">
+																<div class="col-sm-12 col-md-12 text-center">
+																	<img src="img/img3.png" class="img-fluid" alt="Evento">
+																</div>
+																<div class="col-sm-8 col-md-12">
+																	<p class="mb-0">
+																		<small class="text-success">
+																			DOMINGO 27 DE MAYO
+																		</small><br>
+																		<small class="text-success">Hrs. 22:30</small>
+																	</p>
+																</div>
+																<div class="col-sm-4 text-right d-md-none d-lg-none">
+																	<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition bg-transparent" id="intDropBtn2">
+																		<i class="fas fa-angle-down text-primary fa-lg"></i>
+																	</button>
+																</div>
 															</div>
-															<div class="col-sm-4 text-right d-md-none d-lg-none">
-																<button class="btn btn-sm bg-white border-0 btn btn-sm text-right transition" id="intDropBtn2">
-																	<i class="fas fa-angle-down text-primary fa-lg"></i>
-																</button>
-															</div>
-														</div>
-														<div class="row">
-															<div class="col-sm-12 col-md-12">
-																<div class="row">
-																	<div class="col-sm-6 mb-3 mt-3">
-																		<small>
-																			<strong>DIA DE LA MADRE</strong>
-																		</small>
-																	</div>
-																	<div class="col-sm-6 text-right mb-3 mt-3">
-																		<p class="mb-0">
-																			<del>
-																				<i class="fas fa-euro-sign fa-xs"></i>
-																				45
-																			</del>&nbsp;
-																			<span class="text-primary">
-																				<i class="fas fa-euro-sign fa-xs"></i>
-																				20
-																			</span>
-																		</p>
-																	</div>
-																	<div class="col-sm-12 mt-2 mb-2 display-none" id="intDropDown2">
-																		<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-																		<div class="col-sm-12 mt-3 mb-4">
-																			<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>PARTICIPA</strong></a>
+															<div class="row">
+																<div class="col-sm-12 col-md-12">
+																	<div class="row">
+																		<div class="col-sm-6 mb-1 mt-1">
+																			<small>
+																				<strong>DIA DE LA MADRE</strong>
+																			</small>
+																		</div>
+																		<div class="col-sm-6 text-right mb-1 mt-1">
+																			<p class="mb-0">
+																				<del>
+																					<i class="fas fa-euro-sign fa-xs"></i>
+																					45
+																				</del>&nbsp;
+																				<span class="text-primary">
+																					<i class="fas fa-euro-sign fa-xs"></i>
+																					20
+																				</span>
+																			</p>
 																		</div>
 																	</div>
 																</div>
 															</div>
+														</div>
+														<div class="row">
+															<div class="col-sm-12 display-none" id="intDropDown2">
+																<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																<div class="col-sm-12 mt-2 mb-2">
+																	<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>PARTICIPA</strong></a>
+																</div>
+															</div>	
 														</div>
 
 														<!-- PROMO dropdown -->
@@ -427,116 +429,120 @@
 
 														<div class="row">
 															<div class="col-sm-12 border-top border-primary">
-																<p class="mb-0 mt-3 mb-3">
+																<p class="mb-0 mt-2 mb-2">
 																	<i class="fas fa-tag fa-lg text-primary"></i>
 																	<small>
 																		<strong>PROMO</strong>
 																	</small>
 																</p>
 															</div>
-															<div class="col-sm-12 col-md-6">
-																<img src="img/img4.png" class="img-fluid" alt="promo">
-															</div>
-															<div class="col-sm-12 mt-2 col-md-6">
-																<div class="row" id="hasIntDropDown3">
-																	<div class="col-sm-8">
-																		<p class="mb-0">
-																			<small class="text-success">
-																				DOMINGO 27 DE MAYO
-																			</small><br>
-																			<small class="text-success">Hrs. 22:30</small>
-																		</p>
-																	</div>
-																	<div class="col-sm-4 text-right d-lg-nona d-md-none">
-																		<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn3">
-																			<i class="fas fa-angle-down text-primary fa-lg"></i>
-																		</button>
-																	</div>
+															<div id="hasIntDropDown3">
+																<div class="col-sm-12 col-md-6">
+																	<img src="img/img4.png" class="img-fluid" alt="promo">
 																</div>
-																<div class="row">
-																	<div class="col-sm-12 col-md-12">
-																		<div class="row">
-																			<div class="col-sm-7 mb-3 mt-3">
-																				<small>
-																					<strong>POR EL DIA DE LA MADRE</strong>
-																				</small>
-																			</div>
-																			<div class="col-sm-5 text-right mb-3 mt-3">
-																				<p class="mb-0">
-																					<del>
-																						<i class="fas fa-euro-sign fa-xs"></i>
-																						45
-																					</del>&nbsp;
-																					<span class="text-primary">
-																						<i class="fas fa-euro-sign fa-xs"></i>
-																						20
-																					</span>
-																				</p>
-																			</div>
-																			<div class="col-sm-12 mt-2 display-none"  id="intDropDown3">
-																				<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-																				<div class="col-sm-12 mt-3">
-																					<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
+																<div class="col-sm-12 mt-2 col-md-6">
+																	<div class="row">
+																		<div class="col-sm-8">
+																			<p class="mb-0">
+																				<small class="text-success">
+																					DOMINGO 27 DE MAYO
+																				</small><br>
+																				<small class="text-success">Hrs. 22:30</small>
+																			</p>
+																		</div>
+																		<div class="col-sm-4 text-right d-lg-nona d-md-none">
+																			<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn3">
+																				<i class="fas fa-angle-down text-primary fa-lg"></i>
+																			</button>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-sm-12 col-md-12">
+																			<div class="row">
+																				<div class="col-sm-7 mb-1 mt-1">
+																					<small>
+																						<strong>POR EL DIA DE LA MADRE</strong>
+																					</small>
+																				</div>
+																				<div class="col-sm-5 text-right mb-1 mt-1">
+																					<p class="mb-0">
+																						<del>
+																							<i class="fas fa-euro-sign fa-xs"></i>
+																							45
+																						</del>&nbsp;
+																						<span class="text-primary">
+																							<i class="fas fa-euro-sign fa-xs"></i>
+																							20
+																						</span>
+																					</p>
 																				</div>
 																			</div>
 																		</div>
 																	</div>
+																</div>
+															</div>
+															<div class="col-sm-12 mt-2 display-none"  id="intDropDown3">
+																<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																<div class="col-sm-12 mt-2 mb-2">
+																	<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
 																</div>
 															</div>
 														</div>
 								
 														<!-- Second Promo -->
 
-														<div class="row mt-4">
-															<div class="col-sm-12 col-md-6">
-																<img src="img/img5.png" class="img-fluid" alt="promo">
-															</div>
-															<div class="col-sm-12 col-md-6 mt-2">
-																<div class="row" id="hasIntDropDown4">
-																	<div class="col-sm-8">
-																		<p class="mb-0">
-																			<small class="text-success">
-																				DOMINGO 27 DE MAYO
-																			</small><br>
-																			<small class="text-success">Hrs. 22:30</small>
-																		</p>
-																	</div>
-																	<div class="col-sm-4 text-right d-lg-nona d-md-none">
-																		<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn4">
-																			<i class="fas fa-angle-down text-primary fa-lg"></i>
-																		</button>
-																	</div>
+														<div class="row mt-2">
+															<div id="hasIntDropDown4">
+																<div class="col-sm-12 col-md-6">
+																	<img src="img/img5.png" class="img-fluid" alt="promo">
 																</div>
-																<div class="row">
-																	<div class="col-sm-12">
-																		<div class="row">
-																			<div class="col-sm-7 mt-3 mb-3">
-																				<small>
-																					<strong>POR EL DIA DE LA MADRE</strong>
-																				</small>
-																			</div>
-																			<div class="col-sm-5 text-right mt-3 mb-3">
-																				<p class="mb-0">
-																					<del>
-																						<i class="fas fa-euro-sign fa-xs"></i>
-																						45
-																					</del>&nbsp;
-																					<span class="text-primary">
-																						<i class="fas fa-euro-sign fa-xs"></i>
-																						20
-																					</span>
-																				</p>
-																			</div>
-																			<div class="col-sm-12 col-md-12 mt-2 mb-2 display-none" id="intDropDown4">
-																				<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
-																				<div class="col-sm-12 mt-3">
-																					<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
+																<div class="col-sm-12 col-md-6 mt-2">
+																	<div class="row">
+																		<div class="col-sm-8">
+																			<p class="mb-0">
+																				<small class="text-success">
+																					DOMINGO 27 DE MAYO
+																				</small><br>
+																				<small class="text-success">Hrs. 22:30</small>
+																			</p>
+																		</div>
+																		<div class="col-sm-4 text-right d-lg-nona d-md-none">
+																			<button class="btn btn-sm bg-white border-0 text-right transition" id="intDropBtn4">
+																				<i class="fas fa-angle-down text-primary fa-lg"></i>
+																			</button>
+																		</div>
+																	</div>
+																	<div class="row">
+																		<div class="col-sm-12">
+																			<div class="row">
+																				<div class="col-sm-7 mt-1 mb-1">
+																					<small>
+																						<strong>POR EL DIA DE LA MADRE</strong>
+																					</small>
+																				</div>
+																				<div class="col-sm-5 text-right mt-1 mb-1">
+																					<p class="mb-0">
+																						<del>
+																							<i class="fas fa-euro-sign fa-xs"></i>
+																							45
+																						</del>&nbsp;
+																						<span class="text-primary">
+																							<i class="fas fa-euro-sign fa-xs"></i>
+																							20
+																						</span>
+																					</p>
 																				</div>
 																			</div>
 																		</div>
 																	</div>
 																</div>
 															</div>
+																				<div class="col-sm-12 col-md-12 mt-2 mb-2 display-none" id="intDropDown4">
+																					<small>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed t labore et dolore magna ...</small>
+																					<div class="col-sm-12 mt-3">
+																						<a href="calendario.html" class="btn btn-danger btn-block btn-lg"><strong>RESERVA</strong></a>
+																					</div>
+																				</div>
 														</div>
 													</div>
 												</div>
@@ -567,7 +573,7 @@
 												<div class="row display-none" id="dropDownItem5">
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato1Btn">
 																<small>Ceviche de Pescado</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -577,17 +583,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="ceviche_de_pescado">
-																  <label class="custom-control-label" for="ceviche_de_pescado"></label>
-																</div>	
+																<input type="checkbox" id="ceviche_de_pescado">
+																<label for="ceviche_de_pescado"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato1Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato2Btn">
 																<small>Leche de Tigre</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -597,17 +607,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="leche_de_tigre">
-																  <label class="custom-control-label" for="leche_de_tigre"></label>
-																</div>	
+																<input type="checkbox" id="leche_de_tigre">
+																<label for="leche_de_tigre"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato2Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato3Btn">
 																<small>Salchipapas</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -617,17 +631,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="salchipapas">
-																  <label class="custom-control-label" for="salchipapas"></label>
-																</div>	
+																<input type="checkbox" id="salchipapas">
+																<label for="salchipapas"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato3Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato4Btn">
 																<small>Aeropuerto</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -637,17 +655,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Aeropuerto" disabled>
-																  <label class="custom-control-label" for="Aeropuerto"></label>
-																</div>	
+																<input type="checkbox" id="Aeropuerto">
+																<label for="Aeropuerto"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato4Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato5Btn">
 																<small>Pescado a lo macho</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -657,17 +679,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="pescado_a_lo_macho">
-																  <label class="custom-control-label" for="pescado_a_lo_macho"></label>
-																</div>	
+																<input type="checkbox" id="pescado_a_lo_macho">
+																<label for="pescado_a_lo_macho"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato5Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato6Btn">
 																<small>Anticuchos</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -677,17 +703,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Anticuchos">
-																  <label class="custom-control-label" for="Anticuchos"></label>
-																</div>	
+																<input type="checkbox" id="Anticuchos">
+																<label for="Anticuchos"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato6Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato7Btn">
 																<small>Pollo a la brasa</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -697,17 +727,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Pollo_a_la_brasa">
-																  <label class="custom-control-label" for="Pollo_a_la_brasa"></label>
-																</div>	
+																<input type="checkbox" id="Pollo_a_la_brasa">
+																<label for="Pollo_a_la_brasa"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato7Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato8Btn">
 																<small>Cuy Asado</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -716,11 +750,15 @@
 																	15
 																</small>
 															</div>
-															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="cuy_asado">
-																  <label class="custom-control-label" for="cuy_asado"></label>
-																</div>	
+															<div class="col-sm-1">																
+																<input type="checkbox" id="cuy_asado">
+																<label for="cuy_asado"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato8Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
@@ -728,7 +766,7 @@
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato9Btn">
 																<small>Ceviche de Pescado</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -738,17 +776,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="ceviche_de_pescado2">
-																  <label class="custom-control-label" for="ceviche_de_pescado2"></label>
-																</div>	
+																<input type="checkbox" id="ceviche_de_pescado2">
+																<label for="ceviche_de_pescado2"></label>	
+															</div>
+														</div>
+														<div class="row display-none" id="plato9Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato10Btn">
 																<small>Leche de Tigre</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -758,17 +800,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="leche_de_tigre2">
-																  <label class="custom-control-label" for="leche_de_tigre2"></label>
-																</div>	
+																<input type="checkbox" id="leche_de_tigre2">
+																<label for="leche_de_tigre2"></label>	
+															</div>
+														</div>
+														<div class="row display-none" id="plato10Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato11Btn">
 																<small>Salchipapas</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -778,17 +824,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="salchipapas2">
-																  <label class="custom-control-label" for="salchipapas2"></label>
-																</div>	
+																<input type="checkbox" id="salchipapas2">
+																<label for="salchipapas2"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato11Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato12Btn">
 																<small>Aeropuerto</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -797,18 +847,22 @@
 																	15
 																</small>
 															</div>
-															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Aeropuerto2">
-																  <label class="custom-control-label" for="Aeropuerto2"></label>
-																</div>	
+															<div class="col-sm-1">																
+																<input type="checkbox" id="Aeropuerto2">
+																<label for="Aeropuerto2"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato12Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato13Btn">
 																<small>Pescado a lo macho</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -818,17 +872,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="pescado_a_lo_macho2">
-																  <label class="custom-control-label" for="pescado_a_lo_macho2"></label>
-																</div>	
+																<input type="checkbox" id="pescado_a_lo_macho2">
+																<label for="pescado_a_lo_macho2"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato13Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato14Btn">
 																<small>Anticuchos</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -838,17 +896,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Anticuchos2">
-																  <label class="custom-control-label" for="Anticuchos2"></label>
-																</div>	
+																<input type="checkbox" id="Anticuchos2">
+																<label for="Anticuchos2"></label>																
+															</div>
+														</div>
+														<div class="row display-none" id="plato14Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato15Btn">
 																<small>Pollo a la brasa</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -858,17 +920,21 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="Pollo_a_la_brasa2">
-																  <label class="custom-control-label" for="Pollo_a_la_brasa2"></label>
-																</div>	
+																<input type="checkbox" id="Pollo_a_la_brasa2">
+																<label for="Pollo_a_la_brasa2"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato15Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
 
 													<div class="col-sm-12 border-top border-primary mt-1 mb-1">
 														<div class="row">
-															<div class="col-sm-8 text-left">
+															<div class="col-sm-8 text-left" id="plato16Btn">
 																<small>Cuy Asado</small>
 															</div>
 															<div class="col-sm-3 text-center">
@@ -878,10 +944,14 @@
 																</small>
 															</div>
 															<div class="col-sm-1">
-																<div class="custom-control custom-checkbox">
-																  <input type="checkbox" class="custom-control-input" id="cuy_asado2">
-																  <label class="custom-control-label" for="cuy_asado2"></label>
-																</div>	
+																<input type="checkbox" id="cuy_asado2">
+																<label for="cuy_asado2"></label>
+															</div>
+														</div>
+														<div class="row display-none" id="plato16Drop">
+															<div class="col-sm-12">
+																<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																tempor incididunt ut labore et dolore magna aliqua.</small>
 															</div>
 														</div>
 													</div>
@@ -1037,7 +1107,7 @@
 
 								<div class="row">
 									<div class="col-sm-12 mt-3">
-										<a href="" class="btn bg-white text-primary d-block text-right">
+										<a href="resultados.html" class="btn bg-white text-primary d-block text-right">
 											<small>VOLVER A RESTAURANTES</small>
 											<i class="fas fa-arrow-left fa-lg"></i>
 										</a>

@@ -1,0 +1,32 @@
+- ver noticias noticias mas pequeño, minuscula con el icono ----------
+- torino ---------
+- viajes y paqueteria, ----------
+	agencias - tours ----------
+
+
+- mas servicios, cambiar ciudad, cambiar icono ----------
+
+- quitar categorias de subcategoria ----------
+
+- agrandar iconos un 30% aprox ----------
+
+- quitar mt.----------
+
+- precio despegar del margen ----------
+
+- evento promo a evento promo
+
+-entrada segundo bebida mas pegado. ----------
+
+- mover a la derecha la X de cierre ----------
+
+
+- agrandar tamaño iconos detalles ----------
+
+- agrandar el ancho, que salga la m ----------
+
+- platos a la carta con dropdown ----------
+
+- recortar el login de altura ----------
+
+- verificar para otros telefonos

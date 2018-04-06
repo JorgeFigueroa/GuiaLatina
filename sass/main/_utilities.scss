@@ -18,6 +18,10 @@ li a[data-toggle="tab"].active{
 	border-bottom: solid 4px $primary!important;
 }
 
+.bg-transparent{
+	background-color: $transparent;
+}
+
 // Para resoluciones de 750px hacia abajo
 
 @media (max-width: $max-width){

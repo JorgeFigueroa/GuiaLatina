@@ -1,0 +1,23 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+input[type=checkbox], input[type=radio]{ 
+	display:none;
+}
+
+label{
+	display: inline;
+}
+
+input[type=checkbox] + label:before, input[type=radio] + label:before{	
+	font-family: 'FontAwesome';
+	font-size: $font-size-check;
+}
+
+input[type=checkbox] + label:before, input[type=radio] + label:before{ 
+	content: "\f096"; color: $primary; 
+}
+
+input[type=checkbox]:checked + label:before, input[type=radio]:checked + label:before{
+	content: "\f046"; color: $primary; 
+}
+
