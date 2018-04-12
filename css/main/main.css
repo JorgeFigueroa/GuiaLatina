@@ -51,6 +51,9 @@ li a[data-toggle="tab"].active {
 .font-small {
   font-size: 9px !important; }
 
+.font-large {
+  font-size: 30px !important; }
+
 .arial {
   font-family: arial; }
 
