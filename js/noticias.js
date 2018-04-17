@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$('#localesBtn').addClass('text-danger border-bottom border-danger');
 		$('#NewsSection').html('Locales');
 
-		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").load('https://sotod331.github.io/GuiaLatina/locales.html');
+		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").stop(true, true).delay(1000).load('https://sotod331.github.io/GuiaLatina/locales.html');
 	});
 
 	$('#latinoamericaBtn').click(function(){
@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('#latinoamericaBtn').addClass('text-danger border-bottom border-danger');
 		$('#NewsSection').html('Latinoamérica');
 
-		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").load('https://sotod331.github.io/GuiaLatina/latinoamerica.html');
+		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").stop(true, true).delay(1000).load('https://sotod331.github.io/GuiaLatina/latinoamerica.html');
 	});
 
 	$('#espectaculosBtn').click(function(){
@@ -21,7 +21,7 @@ $(document).ready(function(){
 		$('#espectaculosBtn').addClass('text-danger border-bottom border-danger');
 		$('#NewsSection').html('Gosip<br>Espectáculos');
 
-		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").load('https://sotod331.github.io/GuiaLatina/gosip-espectaculos.html');
+		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").stop(true, true).delay(1000).load('https://sotod331.github.io/GuiaLatina/gosip-espectaculos.html');
 	});
 
 	$('#latinosporBtn').click(function(){
@@ -29,7 +29,7 @@ $(document).ready(function(){
 		$('#latinosporBtn').addClass('text-danger border-bottom border-danger');
 		$('#NewsSection').html('Latinos por<br>el mundo');
 
-		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").load('https://sotod331.github.io/GuiaLatina/latinos-por-el-mundo.html');
+		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").stop(true, true).delay(1000).load('https://sotod331.github.io/GuiaLatina/latinos-por-el-mundo.html');
 
 	});
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
 		$('#viralesBtn').addClass('text-danger border-bottom border-danger');
 		$('#NewsSection').html('Virales');
 
-		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").load('https://sotod331.github.io/GuiaLatina/virales.html');
+		$('#sectionContent').html("<div class='text-center'><img src='img/loader.gif' width='60' /></div>").stop(true, true).delay(1000).load('https://sotod331.github.io/GuiaLatina/virales.html');
 	});
 
 });
