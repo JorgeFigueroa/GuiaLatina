@@ -1,0 +1,14 @@
+.bottom-right{
+	bottom: 5%;
+	right: 5%;
+}
+
+.middle{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.overflow-x{
+	overflow-x: auto!important;
+}

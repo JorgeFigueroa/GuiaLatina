@@ -10,14 +10,6 @@
 	transform: rotate($rotation-angle);
 }
 
-li a[data-toggle="tab"]{
-	border-bottom: solid 4px $grey-200!important;
-}
-
-li a[data-toggle="tab"].active{
-	border-bottom: solid 4px $primary!important;
-}
-
 .bg-transparent{
 	background-color: $transparent;
 }

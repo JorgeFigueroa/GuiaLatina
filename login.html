@@ -42,71 +42,71 @@
 	<section class="container">
 		<div class="card bg-white border-0 rounded-0 mb-2">
 			<div class="card-header bg-white border-0 px-0 py-0">
-				<div id="rootwizard">
-					<ul class="row mt-1">
-						<li class="col-sm-6">
-							<a href="#facebookLogin" class="btn btn-light btn-sm rounded-0 btn-block" data-toggle="tab">
-								<i class="fab fa-facebook-square fa-2x text-facebook"></i>
-								&nbsp;<span class="h5">Facebook</span>
-							</a>
-						</li>
-						<li class="col-sm-6">
-							<a href="#emailLogin" class="btn btn-light btn-sm rounded-0 btn-block" data-toggle="tab">
-								<i class="far fa-envelope fa-2x"></i>
-								&nbsp;<span class="h5">Correo</span>
-							</a>
-						</li>
-					</ul>
-					<div class="tab-content">
-						<div class="card-body tab-pane" id="facebookLogin">
-							<div class="mt-5 mb-5 text-center">
-								<p class="text-darkest">
-									<strong>Accede de forma rápida y sencilla</strong>
-								</p>
-								<a href="resumen_pedido.html" class="btn btn-lg btn-block bg-facebook text-light mt-4 mb-4">
-									<i class="fab fa-facebook-f fa-lg"></i>
-									<span class="ml-4">Ingresa con Facebook</span>
-								</a>
-								<p class="text-dark">
-									<small>
-										Guíalatina recibirá:<br>
-										Tu perfil y dirección de correo electrónico
-									</small>
-								</p>
-								<div class="mt-5 mb-0 text-left">
-									<i class="fas fa-check text-primary"></i>
-									<small class="text-dark">Nunca publicaremos nada sin tu permiso</small>
-								</div>	
-							</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<button id="facebookLoginBtn" class="btn btn-light btn-sm rounded-0 btn-block border-top-0 border-left-0 border-right-0 border-bottom border-primary">
+							<i class="fab fa-facebook-square fa-2x text-facebook"></i>
+							&nbsp;<span class="h5">Facebook</span>
+						</button>			
+					</div>
+					<div class="col-sm-6">
+						<button id="emailLoginBtn" class="btn btn-light btn-sm rounded-0 btn-block">
+							<i class="far fa-envelope fa-2x"></i>
+							&nbsp;<span class="h5">Correo</span>
+						</button>
+					</div>
+				</div>
+						
+
+				<div class="card-body" id="facebookLogin">
+					<div class="mt-5 mb-5 text-center">
+						<p class="text-darkest">
+							<strong>Accede de forma rápida y sencilla</strong>
+						</p>
+						<a href="resumen_pedido.html" class="btn btn-lg btn-block bg-facebook text-light mt-4 mb-4">
+							<i class="fab fa-facebook-f fa-lg"></i>
+							<span class="ml-4">Ingresa con Facebook</span>
+						</a>
+						<p class="text-dark">
+							<small>
+								Guíalatina recibirá:<br>
+								Tu perfil y dirección de correo electrónico
+							</small>
+						</p>
+						<div class="mt-5 mb-0 text-left">
+							<i class="fas fa-check text-primary"></i>
+							<small class="text-dark">Nunca publicaremos nada sin tu permiso</small>
+						</div>	
+					</div>
+				</div>
+
+				<div class="card-body d-none" id="emailLogin">
+					<div class="text-center">
+						<p class="text-darkest">
+							<strong>Ingresa con tu Email</strong>
+						</p>
+						<div class="form-group">
+							<input type="email" name="" placeholder="Email" class="form-control">
 						</div>
-						<div class="card-body tab-pane" id="emailLogin">
-							<div class="text-center">
-								<p class="text-darkest">
-									<strong>Ingresa con tu Email</strong>
-								</p>
-								<div class="form-group">
-									<input type="email" name="" placeholder="Email" class="form-control">
-								</div>
-								<div class="form-group">
-									<input type="password" name="" placeholder="Password" class="form-control">
-								</div>
-								<div class="form-group">
-									<a href="resumen_pedido.html" class="btn btn-lg btn-danger btn-block btn-lg">INICIAR SESION</a>
-								</div>
-								<a href="" class="d-inline-block py-1 border-bottom border-darkest text-darkest">Olvide mi password</a>
-								<div class="card-footer mt-2 border-top border-primary text-center bg-white rounded-0">
-									<i class="fas fa-user fa-2x"></i>
-									<p>
-										<strong>No tienes cuenta?</strong>
-									</p>
-									<a href="registro.html" class="d-inline-block py-1 border-bottom border-primary">
-										Registrate aqui
-									</a>
-								</div>
-							</div>
+						<div class="form-group">
+							<input type="password" name="" placeholder="Password" class="form-control">
+						</div>
+						<div class="form-group">
+							<a href="resumen_pedido.html" class="btn btn-lg btn-danger btn-block btn-lg">INICIAR SESION</a>
+						</div>
+						<a href="" class="d-inline-block py-1 border-bottom border-darkest text-darkest">Olvide mi password</a>
+						<div class="card-footer mt-2 border-top border-primary text-center bg-white rounded-0">
+							<i class="fas fa-user fa-2x"></i>
+							<p>
+								<strong>No tienes cuenta?</strong>
+							</p>
+							<a href="registro.html" class="d-inline-block py-1 border-bottom border-primary">
+								Registrate aqui
+							</a>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>

@@ -117,6 +117,38 @@
 		</div>
 	</div>
 
+	<!-- Barra de Navegación Otras Ciudades -->
+
+	<div class="position-fixed display-categories-menu border-right border-bottom border-light" id="ciudadesMenu">
+		<div class="row">
+			<div class="col-sm-12 position-relative p-3">
+				<button class="btn btn-sm bg-white text-primary float-right p-0 mr-3" id="closeCiuBtn"><i class="fas fa-times"></i></button>
+				<ul class="list-unstyled mt-0">
+					<li>
+						<a href="" class="text-dark">
+							<small>Milano</small>
+						</a>
+					</li>
+					<li>
+						<a href="" class="text-dark">
+							<small>Roma</small>
+						</a>
+					</li>
+					<li>
+						<a href="" class="text-dark">
+							<small>Torino</small>
+						</a>
+					</li>
+					<li>
+						<a href="" class="text-dark">
+							<small>Firenze</small>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 	<!-- Nav Adicional -->
 
 	<section class="container">
@@ -130,7 +162,7 @@
 						</button>
 					</div>
 					<div class="col-sm-4">
-						<button class="btn bg-light rounded-0 btn-block p-0">
+						<button class="btn bg-light rounded-0 btn-block p-0" id="btnCiudades">
 							<i class="far fa-building fa-2x text-primary mt-2"></i>
 							<small class="d-block mb-2 font-small">CAMBIAR<br>CIUDAD</small>
 						</button>
@@ -191,31 +223,30 @@
 							</button>
 						</div>
 						<div class="col-sm-5 text-center text-right ml-1">
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
 								<span class="display-notification badge badge-primary rounded-circle">3</span>
 								<i class="fas fa-tag fa-lg"></i><br>
 								<small class="text-primary">PROMO</small>
-							</a>
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
+							</button>
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
 								<span class="display-notification badge badge-primary rounded-circle">2</span>
 								<i class="far fa-calendar fa-lg"></i><br>
 								<small class="text-primary">EVENTOS</small>
-							</a>
+							</button>
 						</div>
 					</div>
 							
 					
-				<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem">
-					<div class="card-body">
-						<div id="rootwizard">
-							<ul class="row">
-								<li class="col-sm-6">
-									<a href="#menuDiario" data-toggle="tab" class="btn bg-light btn-sm rounded-0 btn-block">MENU DIARIO</a>
-								</li>
-								<li class="col-sm-6">
-									<a href="#promoEvento" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</a>
-								</li>
-							</ul>
+					<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-sm-6">
+									<button id="menuDiarioBtn" class="btn bg-light btn-sm rounded-0 btn-block">MENU DIARIO</button>
+								</div>
+								<div class="col-sm-6">
+									<button id="promoEventoBtn" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</button>
+								</div>
+							</div>
 							<div class="row">
 								<div class="col-sm-6 text-left">
 									<small class="text-primary">HOY LUNES 28 FEBRERO</small>
@@ -223,8 +254,7 @@
 								<div class="col-sm-6 text-right">
 									<p class="text-primary mr-3"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
 								</div>
-								<div class="tab-content">
-									<div class="col-sm-12 tab-pane" id="menuDiario">
+									<div class="col-sm-12 d-none" id="menuDiario">
 										<p class="mb-0">
 											<small>
 												<strong>ENTRADA:</strong>
@@ -244,7 +274,7 @@
 											</small>
 										</p class="mb-0">
 									</div>
-									<div class="col-sm-12 tab-pane" id="promoEvento">
+									<div class="col-sm-12 d-none" id="promoEvento">
 										<p class="mb-0">
 											<small>
 												<strong>DIA DE LA MADRE</strong><br>
@@ -254,23 +284,21 @@
 											</small>
 										</p>
 									</div>
-								</div>
 								<div class="col-sm-6">
 									<button class="btn bg-white text-danger ml-3" id="closeItemBtn"><i class="fas fa-times"></i></button>
 								</div>
 								<div class="col-sm-6">
-									<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
+								<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
 			<div class="col-md-6">
 				<div class="card border-0 rounded-0 mt-2">
-					<div class="card-body" id="hasDropDown2">
+					<div class="card-body mt-0 mb-0" id="hasDropDown2">
 						<div class="row">
 							<div class="col-sm-4">
 								<img src="img/img2.png" class="img-fluid" alt="Aki Me Quedo">
@@ -287,6 +315,7 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="row">
 						<div class="col-sm-6">
 							<button class="btn bg-white border-0 text-dark btn-sm ml-3">
@@ -303,60 +332,59 @@
 							</button>
 						</div>
 						<div class="col-sm-5 text-center text-right ml-1">
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo2">
 								<span class="display-notification badge badge-primary rounded-circle">3</span>
 								<i class="fas fa-tag fa-lg"></i><br>
 								<small class="text-primary">PROMO</small>
-							</a>
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
+							</button>
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento2">
 								<span class="display-notification badge badge-primary rounded-circle">2</span>
 								<i class="far fa-calendar fa-lg"></i><br>
 								<small class="text-primary">EVENTOS</small>
-							</a>
+							</button>
 						</div>
 					</div>
+							
 					
-				<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem2">
-					<div class="card-body">
-						<div id="rootwizard2">
-							<ul class="row">
-								<li class="col-sm-6">
-									<a href="#menuDiario2" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">MENU DIARIO</a>
-								</li>
-								<li class="col-sm-6">
-									<a href="#promoEvento2" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</a>
-								</li>
-							</ul>
+					<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem2">
+						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-9 text-left">
+								<div class="col-sm-6">
+									<button id="menuDiarioBtn2" class="btn bg-light btn-sm rounded-0 btn-block">MENU DIARIO</button>
+								</div>
+								<div class="col-sm-6">
+									<button id="promoEventoBtn2" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 text-left">
 									<small class="text-primary">HOY LUNES 28 FEBRERO</small>
 								</div>
-								<div class="col-sm-3 text-right">
-									<p class="text-primary"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
+								<div class="col-sm-6 text-right">
+									<p class="text-primary mr-3"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
 								</div>
-								<div class="tab-content">
-									<div class="col-sm-12 tab-pane" id="menuDiario2">
-										<p>
+									<div class="col-sm-12 d-none" id="menuDiario2">
+										<p class="mb-0">
 											<small>
 												<strong>ENTRADA:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>SEGUNDO:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>BEBIDA-POSTRE:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
-										</p>
+										</p class="mb-0">
 									</div>
-									<div class="col-sm-12 tab-pane" id="promoEvento2">
-										<p>
+									<div class="col-sm-12 d-none" id="promoEvento2">
+										<p class="mb-0">
 											<small>
 												<strong>DIA DE LA MADRE</strong><br>
 												Ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident,<br>
@@ -365,30 +393,27 @@
 											</small>
 										</p>
 									</div>
+								<div class="col-sm-6">
+									<button class="btn bg-white text-danger ml-3" id="closeItemBtn2"><i class="fas fa-times"></i></button>
 								</div>
 								<div class="col-sm-6">
-									<button class="btn bg-white text-danger" id="closeItemBtn2"><i class="fas fa-times"></i></button>
-								</div>
-								<div class="col-sm-6">
-									<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
+								<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
 
 			<div class="col-md-6">
 				<div class="card border-0 rounded-0 mt-2">
-					<div class="card-body" id="hasDropDown3">
+					<div class="card-body mt-0 mb-0" id="hasDropDown3">
 						<div class="row">
 							<div class="col-sm-4">
 								<img src="img/img1.png" class="img-fluid" alt="Aki Me Quedo">
 							</div>
 							<div class="col-sm-8">
-								<strong>Aki Me Kedo</strong><br>
+								<strong>Aki Me Quedo</strong><br>
 								<small>
 								Via Nicola D'Apulia, 4, Milano, MI, Italia ,
 								</small><br>
@@ -399,6 +424,7 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="row">
 						<div class="col-sm-6">
 							<button class="btn bg-white border-0 text-dark btn-sm ml-3">
@@ -415,86 +441,82 @@
 							</button>
 						</div>
 						<div class="col-sm-5 text-center text-right ml-1">
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo3">
 								<span class="display-notification badge badge-primary rounded-circle">3</span>
 								<i class="fas fa-tag fa-lg"></i><br>
 								<small class="text-primary">PROMO</small>
-							</a>
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
+							</button>
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento3">
 								<span class="display-notification badge badge-primary rounded-circle">2</span>
 								<i class="far fa-calendar fa-lg"></i><br>
 								<small class="text-primary">EVENTOS</small>
-							</a>
+							</button>
 						</div>
 					</div>
+							
 					
-				<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem3">
-					<div class="card-body">
-						<div id="rootwizard3">
-							<ul class="row">
-								<li class="col-sm-6">
-									<a href="#menuDiario3" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">MENU DIARIO</a>
-								</li>
-								<li class="col-sm-6">
-									<a href="#promoEvento3" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</a>
-								</li>
-							</ul>
+					<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem3">
+						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-9 text-left">
+								<div class="col-sm-6">
+									<button id="menuDiarioBtn3" class="btn bg-light btn-sm rounded-0 btn-block">MENU DIARIO</button>
+								</div>
+								<div class="col-sm-6">
+									<button id="promoEventoBtn3" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 text-left">
 									<small class="text-primary">HOY LUNES 28 FEBRERO</small>
 								</div>
-								<div class="col-sm-3 text-right">
-									<p class="text-primary"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
+								<div class="col-sm-6 text-right">
+									<p class="text-primary mr-3"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
 								</div>
-								<div class="tab-content">
-									<div class="col-sm-12 tab-pane" id="menuDiario3">
-										<p>
+									<div class="col-sm-12 d-none" id="menuDiario3">
+										<p class="mb-0">
 											<small>
 												<strong>ENTRADA:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>SEGUNDO:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>BEBIDA-POSTRE:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
-										</p>
+										</p class="mb-0">
 									</div>
-									<div class="col-sm-12 tab-pane" id="promoEvento3">
-										<p>
+									<div class="col-sm-12 d-none" id="promoEvento3">
+										<p class="mb-0">
 											<small>
-												<strong>DIA DE LA MADRE</strong>
+												<strong>DIA DE LA MADRE</strong><br>
 												Ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident,<br>
 												Ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident,<br>
 												Ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident,<br>
 											</small>
 										</p>
 									</div>
+								<div class="col-sm-6">
+									<button class="btn bg-white text-danger ml-3" id="closeItemBtn3"><i class="fas fa-times"></i></button>
 								</div>
 								<div class="col-sm-6">
-									<button class="btn bg-white text-danger" id="closeItemBtn3"><i class="fas fa-times"></i></button>
-								</div>
-								<div class="col-sm-6">
-									<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
+								<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
 
 			<div class="col-md-6">
 				<div class="card border-0 rounded-0 mt-2">
-					<div class="card-body" id="hasDropDown4">
+					<div class="card-body mt-0 mb-0" id="hasDropDown4">
 						<div class="row">
 							<div class="col-sm-4">
 								<img src="img/img2.png" class="img-fluid" alt="Aki Me Quedo">
@@ -511,6 +533,7 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="row">
 						<div class="col-sm-6">
 							<button class="btn bg-white border-0 text-dark btn-sm ml-3">
@@ -527,60 +550,59 @@
 							</button>
 						</div>
 						<div class="col-sm-5 text-center text-right ml-1">
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo">
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownPromo4">
 								<span class="display-notification badge badge-primary rounded-circle">3</span>
 								<i class="fas fa-tag fa-lg"></i><br>
 								<small class="text-primary">PROMO</small>
-							</a>
-							<a href="" class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento">
+							</button>
+							<button class="btn bg-white text-dark btn-sm position-relative float-right" id="hasDropDownEvento4">
 								<span class="display-notification badge badge-primary rounded-circle">2</span>
 								<i class="far fa-calendar fa-lg"></i><br>
 								<small class="text-primary">EVENTOS</small>
-							</a>
+							</button>
 						</div>
 					</div>
+							
 					
-				<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem4">
-					<div class="card-body">
-						<div id="rootwizard4">
-							<ul class="row">
-								<li class="col-sm-6">
-									<a href="#menuDiario4" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">MENU DIARIO</a>
-								</li>
-								<li class="col-sm-6">
-									<a href="#promoEvento4" data-toggle="tab" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</a>
-								</li>
-							</ul>
+					<div class="card border-0 rounded-0 bg-white display-none" id="dropDownItem4">
+						<div class="card-body">
 							<div class="row">
-								<div class="col-sm-9 text-left">
+								<div class="col-sm-6">
+									<button id="menuDiarioBtn4" class="btn bg-light btn-sm rounded-0 btn-block">MENU DIARIO</button>
+								</div>
+								<div class="col-sm-6">
+									<button id="promoEventoBtn4" class="btn btn-light btn-sm rounded-0 btn-block">PROMO/EVENTO</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 text-left">
 									<small class="text-primary">HOY LUNES 28 FEBRERO</small>
 								</div>
-								<div class="col-sm-3 text-right">
-									<p class="text-primary"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
+								<div class="col-sm-6 text-right">
+									<p class="text-primary mr-3"><i class="fas fa-euro-sign fa-xs"></i>&nbsp;8</p>
 								</div>
-								<div class="tab-content">
-									<div class="col-sm-12 tab-pane" id="menuDiario4">
-										<p>
+									<div class="col-sm-12 d-none" id="menuDiario4">
+										<p class="mb-0">
 											<small>
 												<strong>ENTRADA:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>SEGUNDO:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
 										</p>
-										<p>
+										<p class="mb-0">
 											<small>
 												<strong>BEBIDA-POSTRE:</strong>
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 											</small>
-										</p>
+										</p class="mb-0">
 									</div>
-									<div class="col-sm-12 tab-pane" id="promoEvento4">
-										<p>
+									<div class="col-sm-12 d-none" id="promoEvento4">
+										<p class="mb-0">
 											<small>
 												<strong>DIA DE LA MADRE</strong><br>
 												Ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident,<br>
@@ -589,19 +611,18 @@
 											</small>
 										</p>
 									</div>
+								<div class="col-sm-6">
+									<button class="btn bg-white text-danger ml-3" id="closeItemBtn4"><i class="fas fa-times"></i></button>
 								</div>
 								<div class="col-sm-6">
-									<button class="btn bg-white text-danger" id="closeItemBtn4"><i class="fas fa-times"></i></button>
-								</div>
-								<div class="col-sm-6">
-									<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
+								<a href="detalles.html" class="btn bg-danger text-white rounded-0 d-block">VER MAS</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			
 	</div>
 	</article>
 

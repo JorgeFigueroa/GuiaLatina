@@ -17,12 +17,6 @@ table {
 .rotate-angle-icon {
   transform: rotate(180deg); }
 
-li a[data-toggle="tab"] {
-  border-bottom: solid 4px #e6e6e6 !important; }
-
-li a[data-toggle="tab"].active {
-  border-bottom: solid 4px #ff6e40 !important; }
-
 .bg-transparent {
   background-color: transparent; }
 
@@ -50,6 +44,9 @@ li a[data-toggle="tab"].active {
 
 .font-small {
   font-size: 9px !important; }
+
+.font-large {
+  font-size: 30px !important; }
 
 .arial {
   font-family: arial; }
@@ -167,5 +164,17 @@ input[type=checkbox] + label:before, input[type=radio] + label:before {
 input[type=checkbox]:checked + label:before, input[type=radio]:checked + label:before {
   content: "\f046";
   color: #ff6e40; }
+
+.bottom-right {
+  bottom: 5%;
+  right: 5%; }
+
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.overflow-x {
+  overflow-x: auto !important; }
 
 /*# sourceMappingURL=main.css.map */
